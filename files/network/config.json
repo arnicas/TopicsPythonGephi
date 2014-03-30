@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Lynn Cherny",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "Topic Model of Grimms",
+    "more": "An example of a sigma.js export of Grimm\u0027s Fairytales topics - chapters mapped to topics.",
+    "intro": "An example of exporting topic model relations from Gephi using the Sigma.js plugin."
+  },
+  "legend": {
+    "edgeLabel": "Strength",
+    "colorLabel": "Community",
+    "nodeLabel": "Topic/Document"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": true
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 2,
+      "maxNodeSize": 15,
+      "maxEdgeSize": 10,
+      "minNodeSize": 5
+    },
+    "drawingProperties": {
+      "labelThreshold": 7,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
