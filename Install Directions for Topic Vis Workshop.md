@@ -1,4 +1,5 @@
 
+You can go a la carte - just follow one part or the other.  The primary code is done in python (I'll make some scripts you can run from the command line if you don't want to do the notebook stuff) and the visual part is in Gephi. You should also have text editing ability on your machine.
 
 
 Installing Python:
