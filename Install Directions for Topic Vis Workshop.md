@@ -14,7 +14,7 @@ To install it on a Mac, you need to open a terminal window and find it in your d
 
 Accept the defaults.  Open a new terminal window afterwards.
 
-Then from the command line in the new window, make a directory for the class:
+Then from the command line in the new window:
 
     >conda create -n topic_workshop ipython-notebook nltk pip
     [accept the defaults]
