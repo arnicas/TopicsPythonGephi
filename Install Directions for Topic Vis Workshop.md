@@ -16,8 +16,6 @@ Accept the defaults.  Open a new terminal window afterwards.
 
 Then from the command line in the new window, make a directory for the class:
 
-    >mkdir topicvis
-    >cd topicvis
     >conda create -n topic_workshop ipython-notebook nltk pip
     [accept the defaults]
     >source activate topic_workshop
