@@ -1,0 +1,164 @@
+nodedef>name VARCHAR, label VARCHAR, author VARCHAR, type VARCHAR, text VARCHAR
+42,stevenson_treasure_ch1.txt,stevenson,Doc,"SQUIRE TRELAWNEY Dr. Livesey and the rest of these gentlemen having asked me to write down the whole particulars about Treasure Island from the beginning to the end keeping nothing back but the bearings of the island and that only because there is still treasure not yet lifted I take up my pen in the year of grace 17__ and go back to the time when my father kept the Admiral Benbow inn and the brown old seaman with the sabre cut first took up his lodging under our roof.  I remember him as..."
+43,stevenson_treasure_ch2.txt,stevenson,Doc,"IT was not very long after this that there occurred the first of the mysterious events that rid us at last of the captain though not as you will see of his affairs. It was a bitter cold winter with long hard frosts and heavy gales; and it was plain from the first that my poor father was little likely to see the spring. He sank daily and my mother and I had all the inn upon our hands and were kept busy enough without paying much regard to our unpleasant guest.  It was one January morning..."
+24,eliot_middlemarch_ch2.txt,eliot,Doc,""Sir Humphry Davy?" said Mr. Brooke over the soup in his easy smiling way taking up Sir James Chettam's remark that he was studying Davy's Agricultural Chemistry.  "Well now Sir Humphry Davy; I dined with him years ago at Cartwright's and Wordsworth was there too--the poet Wordsworth you know.  Now there was something singular.  I was at Cambridge when Wordsworth was there and I never met him--and I dined with him twenty years afterwards at Cartwright's. There's an oddity in things now...."
+25,eliot_middlemarch_ch48.txt,eliot,Doc,"Dorothea's distress when she was leaving the church came chiefly from the perception that Mr. Casaubon was determined not to speak to his cousin and that Will's presence at church had served to mark more strongly the alienation between them.  Will's coming seemed to her quite excusable nay she thought it an amiable movement in him towards a reconciliation which she herself had been constantly wishing for.  He had probably imagined as she had that if Mr. Casaubon and he could meet easily th..."
+26,eliot_middlemarch_ch73.txt,eliot,Doc,"When Lydgate had allayed Mrs. Bulstrode's anxiety by telling her that her husband had been seized with faintness at the meeting but that he trusted soon to see him better and would call again the next day unless she-sent for him earlier he went directly home got on his horse and rode three miles out of the town for the sake of being out of reach.  He felt himself becoming violent and unreasonable as if raging under the pain of stings: he was ready to curse the day on which he had come to Mi..."
+27,grimms_hanselgretel.txt,grimms,Doc,"Hard by a great forest dwelt a poor wood-cutter with his wife and his two children. The boy was called Hansel and the girl Gretel. He had little to bite and to break and once when great dearth fell on the land he could no longer procure even daily bread. Now when he thought over this by night in his bed and tossed about in his anxiety he groaned and said to his wife: 'What is to become of us? How are we to feed our poor children when we no longer have anything even for ourselves?' 'I'll tel..."
+20,doyle_caseofidentity.txt,doyle,Doc,""My dear fellow" said Sherlock Holmes as we sat on either side of the fire in his lodgings at Baker Street "life is infinitely stranger than anything which the mind of man could invent. We would not dare to conceive the things which are really mere commonplaces of existence. If we could fly out of that window hand in hand hover over this great city gently remove the roofs and peep in at the queer things which are going on the strange coincidences the plannings the cross-purposes the won..."
+21,doyle_redheadedleague.txt,doyle,Doc,"I had called upon my friend Mr. Sherlock Holmes one day in the autumn of last year and found him in deep conversation with a very stout florid-faced elderly gentleman with fiery red hair. With an apology for my intrusion I was about to withdraw when Holmes pulled me abruptly into the room and closed the door behind me.  "You could not possibly have come at a better time my dear Watson" he said cordially.  "I was afraid that you were engaged."  "So I am. Very much so."  "Then I can wait in..."
+22,doyle_scandalbohemia.txt,doyle,Doc,"To Sherlock Holmes she is always THE woman. I have seldom heard him mention her under any other name. In his eyes she eclipses and predominates the whole of her sex. It was not that he felt any emotion akin to love for Irene Adler. All emotions and that one particularly were abhorrent to his cold precise but admirably balanced mind. He was I take it the most perfect reasoning and observing machine that the world has seen but as a lover he would have placed himself in a false position. He n..."
+23,eliot_middlemarch_ch1.txt,eliot,Doc,"Miss Brooke had that kind of beauty which seems to be thrown into relief by poor dress.  Her hand and wrist were so finely formed that she could wear sleeves not less bare of style than those in which the Blessed Virgin appeared to Italian painters; and her profile as well as her stature and bearing seemed to gain the more dignity from her plain garments which by the side of provincial fashion gave her the impressiveness of a fine quotation from the Bible--or from one of our elder poets--in a..."
+28,grimms_snowdrop.txt,grimms,Doc,"It was the middle of winter when the broad flakes of snow were falling around that the queen of a country many thousand miles off sat working at her window. The frame of the window was made of fine black ebony and as she sat looking out upon the snow she pricked her finger and three drops of blood fell upon it. Then she gazed thoughtfully upon the red drops that sprinkled the white snow and said 'Would that my little daughter may be as white as that snow as red as that blood and as blac..."
+29,grimms_wateroflife.txt,grimms,Doc,"Long before you or I were born there reigned in a country a great way off a king who had three sons. This king once fell very ill--so ill that nobody thought he could live. His sons were very much grieved at their father's sickness; and as they were walking together very mournfully in the garden of the palace a little old man met them and asked what was the matter. They told him that their father was very ill and that they were afraid nothing could save him. 'I know what would' said the li..."
+40,meyer_twilight_ch2.txt,meyer,Doc,"THE NEXT DAY WAS BETTER . . . AND WORSE.  It was better because it wasn't raining yet though the clouds were dense and opaque. It was easier because I knew what to expect of my day. Mike came to sit by me in English and walked me to my next class with Chess Club Eric glaring at him all the while; that was flattering. People didn't look at me quite as much as they had yesterday. I sat with a big group at lunch that included Mike Eric Jessica and several other people whose names and faces I..."
+41,meyer_twilight_ch21.txt,meyer,Doc,"I COULD FEEL IT WAS TOO EARLY AGAIN WHEN I WOKE and I knew I was getting the schedule of my days and nights slowly reversed. I lay in my bed and listened to the quiet voices of Alice and Jasper in the other room. That they were loud enough for me to hear at all was strange. I rolled till my feet touched the floor and then staggered to the living room.  The clock on the TV said it was just after two in the morning. Alice and Jasper were sitting together on the sofa Alice sketching again while J..."
+1,austen_pride_ch1.txt,austen,Doc,"It is a truth universally acknowledged that a single man in possession  of a good fortune must be in want of a wife.  However little known the feelings or views of such a man may be on his  first entering a neighbourhood this truth is so well fixed in the minds  of the surrounding families that he is considered the rightful property  of some one or other of their daughters.  "My dear Mr. Bennet" said his lady to him one day "have you heard that  Netherfield Park is let at last?"   r. Ben..."
+3,austen_pride_ch40.txt,austen,Doc,"Elizabeth's impatience to acquaint Jane with what had happened could no longer be overcome; and at length resolving to suppress every particular in which her sister was concerned and preparing her to be surprised she related to her the next morning the chief of the scene between Mr. Darcy and herself.  Miss Bennet's astonishment was soon lessened by the strong sisterly partiality which made any admiration of Elizabeth appear perfectly natural; and all surprise was shortly lost in other feelin..."
+2,austen_pride_ch2.txt,austen,Doc,"Mr. Bennet was among the earliest of those who waited on Mr. Bingley. He had always intended to visit him though to the last always assuring his wife that he should not go; and till the evening after the visit was paid she had no knowledge of it. It was then disclosed in the following manner. Observing his second daughter employed in trimming a hat he suddenly addressed her with:  "I hope Mr. Bingley will like it Lizzy."  "We are not in a way to know _what_ Mr. Bingley likes" said her mothe..."
+5,austen_sense_ch1.txt,austen,Doc,"The family of Dashwood had long been settled in Sussex. Their estate was large and their residence was at Norland Park in the centre of their property where for many generations they had lived in so respectable a manner as to engage the general good opinion of their surrounding acquaintance. The late owner of this estate was a single man who lived to a very advanced age and who for many years of his life had a constant companion and housekeeper in his sister. But her death which happene..."
+4,austen_pride_ch50.txt,austen,Doc,"Mr. Bennet had very often wished before this period of his life that instead of spending his whole income he had laid by an annual sum for the better provision of his children and of his wife if she survived him. He now wished it more than ever. Had he done his duty in that respect Lydia need not have been indebted to her uncle for whatever of honour or credit could now be purchased for her. The satisfaction of prevailing on one of the most worthless young men in Great Britain to be her hus..."
+7,austen_sense_ch27.txt,austen,Doc,""If this open weather holds much longer" said Mrs. Jennings when they met at breakfast the following morning "Sir John will not like leaving Barton next week; 'tis a sad thing for sportsmen to lose a day's pleasure. Poor souls!  I always pity them when they do; they seem to take it so much to heart."  "That is true" cried Marianne in a cheerful voice and walking to the window as she spoke to examine the day. "I had not thought of that.  This weather will keep many sportsmen in the country..."
+6,austen_sense_ch2.txt,austen,Doc,"Mrs. John Dashwood now installed herself mistress of Norland; and her mother and sisters-in-law were degraded to the condition of visitors.  As such however they were treated by her with quiet civility; and by her husband with as much kindness as he could feel towards anybody beyond himself his wife and their child.  He really pressed them with some earnestness to consider Norland as their home; and as no plan appeared so eligible to Mrs. Dashwood as remaining there till she could accommo..."
+9,barrie_peterpan_ch1.txt,barrie,Doc,"All children except one grow up. They soon know that they will grow up and the way Wendy knew was this. One day when she was two years old she was playing in a garden and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful for Mrs. Darling put her hand to her heart and cried "Oh why can't you remain like this for ever!" This was all that passed between them on the subject but henceforth Wendy knew that she must grow up. You always kn..."
+8,austen_sense_ch41.txt,austen,Doc,"Edward having carried his thanks to Colonel Brandon proceeded with his happiness to Lucy; and such was the excess of it by the time he reached Bartlett's Buildings that she was able to assure Mrs. Jennings who called on her again the next day with her congratulations that she had never seen him in such spirits before in her life.  Her own happiness and her own spirits were at least very certain; and she joined Mrs. Jennings most heartily in her expectation of their being all comfortably t..."
+39,meyer_twilight_ch15.txt,meyer,Doc,"THE MUTED LIGHT OF YET ANOTHER CLOUDY DAY eventually woke me. I lay with my arm across my eyes groggy and dazed. Something a dream trying to be remembered struggled to break into my consciousness. I moaned and rolled on my side hoping more sleep would come. And then the previous day flooded back into my awareness.  "Oh!" I sat up so fast it made my head spin.  "Your hair looks like a haystack . . . but I like it." His unruffled voice came from the rocking chair in the corner.  "Edward! You s..."
+38,meyer_twilight_ch1.txt,meyer,Doc,"MY MOTHER DROVE ME TO THE AIRPORT WITH THE windows rolled down. It was seventy-five degrees in Phoenix the sky a perfect cloudless blue. I was wearing my favorite shirt -- sleeveless white eyelet lace; I was wearing it as a farewell gesture. My carry-on item was a parka.  In the Olympic Peninsula of northwest Washington State a small town named Forks exists under a near-constant cover of clouds. It rains on this inconsequential town more than any other place in the United States of America...."
+11,barrie_peterpan_ch2.txt,barrie,Doc,"Mrs. Darling screamed and as if in answer to a bell the door opened and Nana entered returned from her evening out. She growled and sprang at the boy who leapt lightly through the window. Again Mrs. Darling screamed this time in distress for him for she thought he was killed and she ran down into the street to look for his little body but it was not there; and she looked up and in the black night she could see nothing but what she thought was a shooting star.  She returned to the nurs..."
+10,barrie_peterpan_ch15.txt,barrie,Doc,"Odd things happen to all of us on our way through life without our noticing for a time that they have happened. Thus to take an instance we suddenly discover that we have been deaf in one ear for we don't know how long but say half an hour. Now such an experience had come that night to Peter. When last we saw him he was stealing across the island with one finger to his lips and his dagger at the ready. He had seen the crocodile pass by without noticing anything peculiar about it but by and..."
+13,brown_angels_ch2_4.txt,brown,Doc,"Do I have your attention now?" the man's voice said when Langdon finally answered the line.  "Yes sir you damn well do. You want to explain yourself?"  "I tried to tell you before." The voice was rigid mechanical. "I'm a physicist. I run a research facility. We've had a murder. You saw the body."  "How did you find me?" Langdon could barely focus. His mind was racing from the image on the fax.  "I already told you. The Worldwide Web. The site for your book The Art of the Illuminati."  Langdo..."
+12,brown_angels_ch1.txt,brown,Doc,"High atop the steps of the Great Pyramid of Giza a young woman laughed and called down to him. "Robert hurry up! I knew I should have married a younger man!" Her smile was magic.  He struggled to keep up but his legs felt like stone. "Wait" he begged. "Please . . ."  As he climbed his vision began to blur. There was a thundering in his ears. I must reach her! But when he looked up again the woman had disappeared. In her place stood an old man with rotting teeth. The man stared down curling..."
+15,brown_davinci_ch1.txt,brown,Doc,"CHAPTER 1	 Robert Langdon awoke slowly.	 A telephone was ringing in the darkness--a tinny unfamiliar ring. He fumbled for the bedside lamp and turned it on. Squinting at his surroundings he saw a plush Renaissance bedroom with Louis XVI furniture hand-frescoed walls and a colossal mahogany four-poster bed.	 Where the hell am I?	 The jacquard bathrobe hanging on his bedpost bore the monogram: HOTEL RITZ PARIS.	 Slowly the fog began to lift.	 Langdon picked up the receiver. "Hello?"	 "Monsie..."
+14,brown_davinci_ch0.txt,brown,Doc,"Chapter Prologue	 Louvre Museum Paris	 10:46 P.M.	 Renowned curator Jacques Sauniere staggered through the vaulted archway of the museum's Grand Gallery. He lunged for the nearest painting he could see a Caravaggio. Grabbing the gilded frame the seventy-six-year-old man heaved the masterpiece toward himself until it tore from the wall and Sauniere collapsed backward in a heap beneath the canvas.	 As he had anticipated a thundering iron gate fell nearby barricading the entrance to the suit..."
+17,brown_davinci_ch92.txt,brown,Doc,"CHAPTER 92	 King's College established by King George IV in 1829 houses its Department of Theology and Religious Studies adjacent to Parliament on property granted by the Crown. King's College Religion Department boasts not only 150 years' experience in teaching and research but the 1982 establishment of the Research Institute in Systematic Theology which possesses one of the most complete and electronically advanced religious research libraries in the world.	 Langdon still felt shaky as h..."
+16,brown_davinci_ch77.txt,brown,Doc,"CHAPTER 77	 Langdon was impressed. Teabing had just finished writing out the entire twenty-two-letter Hebrew alphabet--alef-beit--from memory. Granted he'd used Roman equivalents rather than Hebrew characters but even so he was now reading through them with flawless pronunciation.	 A B G D H V Z Ch T Y K L M N S O P Tz Q R Sh Th	 "Alef Beit Gimel Dalet Hei Vav Zayin Chet Tet Yud Kaf Lamed Mem Nun Samech Ayin Pei Tzadik Kuf Reish Shin and Tav." Teabing dramatically moppe..."
+19,conrad_secret_ch2.txt,conrad,Doc,"Such was the house the household and the business Mr Verloc left behind him on his way westward at the hour of half-past ten in the morning.  It was unusually early for him; his whole person exhaled the charm of almost dewy freshness; he wore his blue cloth overcoat unbuttoned; his boots were shiny; his cheeks freshly shaven had a sort of gloss; and even his heavy-lidded eyes refreshed by a night of peaceful slumber sent out glances of comparative alertness.  Through the park railings thes..."
+18,conrad_secret_ch1.txt,conrad,Doc,"Mr Verloc going out in the morning left his shop nominally in charge of his brother-in-law.  It could be done because there was very little business at any time and practically none at all before the evening.  Mr Verloc cared but little about his ostensible business.  And moreover his wife was in charge of his brother-in-law.  The shop was small and so was the house.  It was one of those grimy brick houses which existed in large quantities before the era of reconstruction dawned upon Lond..."
+31,james_fiftyshades_ch18.txt,james,Doc,"Dr. Greene is tall blond and immaculate dressed in a royal-blue suit. I’m reminded of the women who work in Christian’s office. She’s like an identikit model—another Stepford blonde. Her long hair is swept up in an elegant chignon. She must be in her early forties.  “Mr. Grey.” She shakes Christian’s outstretched hand.  “Thank you for coming on such short notice” Christian says.  “Thank you for making it worth my while Mr. Grey. Miss Steele.” She smiles her eyes cool..."
+30,james_fiftyshades_ch1.txt,james,Doc,"I scowl with frustration at myself in the mirror. Damn my hair—it just won’t behave and damn Katherine Kavanagh for being ill and subjecting me to this ordeal. I should be studying for my final exams which are next week yet here I am trying to brush my hair into submission. I must not sleep with it wet. I must not sleep with it wet. Reciting this mantra several times I attempt once more to bring it under control with the brush. I roll my eyes in exasperation and gaze at the pale brown..."
+37,lewis_lionwitch_ch2.txt,lewis,Doc,"“GOOD EVENING” SAID LUCY. BUT THE Faun was so busy picking up its parcels that at first it did not reply. When it had finished it made her a little bow.  “Good evening good evening” said the Faun. “Excuse me—I don’t want to be inquisitive—but should I be right in thinking that you are a Daughter of Eve?”  “My name’s Lucy” said she not quite understanding him.  “But you are—forgive me—you are what they call a girl?” asked the Faun.  “Of course I’m a girl..."
+36,lewis_lionwitch_ch14.txt,lewis,Doc,"AS SOON AS THE WITCH HAD GONE ASLAN said “We must move from this place at once it will be wanted for other purposes. We shall encamp tonight at the Fords of Beruna.”  Of course everyone was dying to ask him how he had arranged matters with the witch; but his face was stern and everyone’s ears were still ringing with the sound of his roar and so nobody dared.  After a meal which was taken in the open air on the hill-top (for the sun had got strong by now and dried the grass) they were b..."
+35,lewis_lionwitch_ch12.txt,lewis,Doc,"WHILE THE DWARF AND THE WHITE Witch were saying this miles away the Beavers and the children were walking on hour after hour into what seemed a delicious dream. Long ago they had left the coats behind them. And by now they had even stopped saying to one another “Look! there’s a kingfisher” or “I say bluebells!” or “What was that lovely smell?” or “Just listen to that thrush!” They walked on in silence drinking it all in passing through patches of warm sunlight into cool g..."
+34,lewis_lionwitch_ch1.txt,lewis,Doc,"ONCE THERE WERE FOUR CHILDREN whose names were Peter Susan Edmund and Lucy. This story is about something that happened to them when they were sent away from London during the war because of the air-raids. They were sent to the house of an old Professor who lived in the heart of the country ten miles from the nearest railway station and two miles from the nearest post office. He had no wife and he lived in a very large house with a housekeeper called Mrs. Macready and three servants. (Their..."
+33,james_fiftyshades_ch23.txt,james,Doc,"I glance nervously around the bar but cannot see him.  “Ana what is it? You look like you’ve seen a ghost.”  “It’s Christian he’s here.”  “What? Really?” She glances around the bar too.  I have neglected to mention Christian’s stalker tendencies to my mom.  I see him. My heart leaps beginning a jittery thumping beat as he makes his way toward us. He’s really here—for me. My inner goddess leaps up cheering from her chaise longue. Moving smoothly through the crowd his..."
+32,james_fiftyshades_ch2.txt,james,Doc,"My heart is pounding. The elevator arrives on the first floor and I scramble out as soon as the doors slide open stumbling once but fortunately not sprawling onto the immaculate sandstone floor. I race for the wide glass doors and suddenly I’m free in the bracing cleansing damp air of Seattle. Raising my face I welcome the cool refreshing rain. I close my eyes and take a deep purifying breath trying to recover what’s left of my equilibrium.  No man has ever affected me the way Chris..."
+44,hook thought,Topic,Topic,"Top words:hook thought told man water dead snowdrop captain peter set"
+45,back time,Topic,Topic,"Top words:back time face hand room head eyes ll door don"
+46,make half,Topic,Topic,"Top words:make half mother man life made young world mind money"
+47,grey miss,Topic,Topic,"Top words:grey miss steele smile kate mr good glance gaze question"
+48,christian don,Topic,Topic,"Top words:christian don eyes feel hands mouth anastasia hair soft body"
+49,lucy found,Topic,Topic,"Top words:lucy found mr felt looked girl wrong strange things met"
+50,stood aslan,Topic,Topic,"Top words:stood aslan great table made looked hour turned afraid peter"
+51,looked asked,Topic,Topic,"Top words:looked asked didn eyes edward couldn hair alice charlie wasn"
+52,langdon man,Topic,Topic,"Top words:langdon man gettum sophie word religious teabing curator sauniere city"
+53,darling mrs,Topic,Topic,"Top words:darling mrs wendy nana night michael children father mother boy"
+54,mr dorothea,Topic,Topic,"Top words:mr dorothea sister mrs celia elinor casaubon brooke dear dashwood"
+55,house woman,Topic,Topic,"Top words:house woman father home day morning good door hansel evening"
+56,holmes mr,Topic,Topic,"Top words:holmes mr man street business case matter red heard sherlock"
+57,thought good,Topic,Topic,"Top words:thought good place years put find work love understand mind"
+58,mr verloc,Topic,Topic,"Top words:mr verloc vladimir business winnie sort country stevie shop air"
+edgedef>node1 VARCHAR, node2 VARCHAR, weight DOUBLE, size DOUBLE
+42,44,3.35,3.35
+42,45,1.34,1.34
+42,46,1.44,1.44
+42,55,1.29,1.29
+43,44,3.26,3.26
+43,45,2.5,2.5
+43,50,1.01,1.01
+24,57,1.25,1.25
+24,46,1.44,1.44
+24,54,3.65,3.65
+25,57,2.42,2.42
+25,46,1.6,1.6
+25,54,1.78,1.78
+25,55,1.1,1.1
+26,57,1.66,1.66
+26,46,3.9,3.9
+27,55,6.47,6.47
+20,46,1.37,1.37
+20,56,3.8,3.8
+21,57,1.02,1.02
+21,45,1.13,1.13
+21,56,3.99,3.99
+22,45,1.22,1.22
+22,46,1.21,1.21
+22,55,1.13,1.13
+22,56,3.21,3.21
+23,57,1.49,1.49
+23,46,1.22,1.22
+23,54,3.45,3.45
+28,44,4.57,4.57
+28,55,2.43,2.43
+29,44,5.89,5.89
+40,57,1.16,1.16
+40,45,1.38,1.38
+40,51,4.48,4.48
+41,45,3.01,3.01
+41,51,3.07,3.07
+1,46,2.35,2.35
+1,54,3.92,3.92
+3,57,1.16,1.16
+3,46,2.68,2.68
+3,54,3.26,3.26
+2,54,4.01,4.01
+2,55,1.44,1.44
+5,46,2.89,2.89
+5,54,4.19,4.19
+4,46,2.28,2.28
+4,54,4.37,4.37
+7,46,1.9,1.9
+7,54,4.11,4.11
+6,46,3.56,3.56
+6,54,3.22,3.22
+9,53,4.89,4.89
+8,57,1.21,1.21
+8,46,2.73,2.73
+8,54,3.82,3.82
+39,57,1.06,1.06
+39,45,2.2,2.2
+39,51,2.68,2.68
+38,45,1.76,1.76
+38,51,4.07,4.07
+11,53,5.69,5.69
+10,44,4.71,4.71
+10,45,1.11,1.11
+10,53,1.04,1.04
+13,51,1.38,1.38
+13,52,3.51,3.51
+12,52,3.86,3.86
+15,45,1.05,1.05
+15,52,4.35,4.35
+14,57,1.47,1.47
+14,44,1.05,1.05
+14,52,3.13,3.13
+17,52,6.01,6.01
+16,52,6.23,6.23
+19,58,4.04,4.04
+19,46,1.24,1.24
+19,45,1.37,1.37
+18,58,2.85,2.85
+18,46,1.07,1.07
+18,55,1.15,1.15
+18,45,1.03,1.03
+31,57,1.13,1.13
+31,45,2.08,2.08
+31,48,5.02,5.02
+30,45,1.78,1.78
+30,47,4.6,4.6
+30,48,1.09,1.09
+37,45,1.39,1.39
+37,49,5.25,5.25
+36,50,5.07,5.07
+36,45,1.11,1.11
+36,49,1.02,1.02
+35,50,3.96,3.96
+35,45,1.36,1.36
+35,49,1.4,1.4
+35,44,1.09,1.09
+34,45,1.95,1.95
+34,49,4.43,4.43
+33,45,1.94,1.94
+33,48,4.91,4.91
+32,45,1.42,1.42
+32,47,4.21,4.21
+32,48,1.26,1.26
