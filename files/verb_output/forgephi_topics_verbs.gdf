@@ -1,0 +1,185 @@
+nodedef>name VARCHAR, label VARCHAR, author VARCHAR, type VARCHAR, text VARCHAR
+42,stevenson_treasure_ch1.txt,stevenson,Doc,"having asked write beginning keeping is lifted take go kept cut took remember were came plodding following tarry falling soiled remember looking whistling did breaking sang seemed have been tuned broken rapped carried appeared called was brought drank lingering looking is says told was said is cried trundled bring help stay continued 'm is want head watch call call captain see 're threw tell 've worked says looking were spoke had sailed seemed skipper be obeyed strike came told had set had inqui..."
+43,stevenson_treasure_ch2.txt,stevenson,Doc,"was occurred rid see was frosts was was see sank had were kept paying was pinching lapping touching shining seaward had risen set swinging tilted remember strode heard turned was snort was running was was laying opened stepped had set was wanting wore did look had remember puzzled was had asked was said take was going fetch sat motioned draw paused was Come says Come took Is asked told did know was stayed called said be called has has put has put like told is told was is gone had pointed told wa..."
+24,eliot_middlemarch_ch2.txt,eliot,Doc,"said smiling taking was studying dined was know was was was met dined 's was was say was was was know felt beginning being fell wondered support thought were dignified made resemble had became blooming represented am reading said am going take see be done setting Do approve interposed going making do went saw do leads let do sell give know buy keep said is spend finding make supports keeping is make performing spoke is expected had appealed was accustomed do had thought urge was turned was speak..."
+25,eliot_middlemarch_ch48.txt,eliot,Doc,"was leaving came was determined speak had served mark coming seemed thought had been wishing had imagined had meet shake return felt robbed hope was banished have been embittered thrusting refused recognize had been had preached was was made Will own felt introduce spent dozing boudoir was occupy was was learning read opened read seemed were beaten had hid sustaining had become seemed have live was was hungering had grown demanded was trying be wished was liked cared have seemed be excluded was..."
+26,eliot_middlemarch_ch73.txt,eliot,Doc,"had allayed telling had been seized trusted see call went got rode being felt becoming raging was had come seemed had come make had regard damaged escape being had injured had meant turn had thwarted seemed was going Rosamond had vented exasperate make behave are cast deterring fill was offend swayed was know has understand falls absorbing was live vindicating suspected go were retreating was set vindicating had witnessed had told had been make had been construct was wanted was was passed have t..."
+27,eljames_fiftyshades_ch1.txt,eljames,Doc,"scowl Damn behave damn being subjecting be studying are am trying brush sleep sleep Reciting attempt bring roll staring give is restrain hope look is has chosen succumb attend 'd arranged do 've heard have been volunteered have finish 'm supposed be working have drive downtown meet is precious--much has granted tells Damn is huddled 'm took get take reschedule have graduated blow begs does do looks ignore go get like please are record transcribe know trying failing suppress rising see 's do want..."
+20,doyle_caseofidentity.txt,doyle,Doc,"said sat is invent dare conceive are fly hover remove are going working leading make foreseen am convinced answered come are have pushed is be confessed be used producing remarked is wanting is laid contain Depend is smiled shook understand thinking said is puzzled are brought is picked put is heading come is know reading is is invent is said taking glancing is happens was engaged clearing was was complained was had drifted winding taking hurling allow is occur Take snuff acknowledge have scored..."
+21,doyle_redheadedleague.txt,doyle,Doc,"had called found was withdraw pulled closed have come said was were engaged am wait has been have be rose gave Try said relapsing putting was know is have shown has prompted excuse saying embellish have been observed remember remarked went presented go is took doubting did come keep piling breaks acknowledges be has been call begin promises be have listened have heard remark are connected is has been committed have heard is say is is have listened have recommence ask has heard opening makes have..."
+22,doyle_scandalbohemia.txt,doyle,Doc,"is have heard mention predominates was felt love were was take observing has seen have placed spoke save were drawing admit was introduce throw be was was had seen had drifted rise finds were absorb loathed remained buried alternating was attracted occupied following clearing had been abandoned heard had accomplished reigning shared knew was was returning had returned led passed be associated was seized see know was employing were looked saw pass was pacing clasped knew told was had risen was ra..."
+23,eliot_middlemarch_ch1.txt,eliot,Doc,"had seems be thrown were formed wear appeared seemed gain gave was spoken being had wore was differed had was shared being had do were inquired find parcel-tying was served conformed managed come living attending regarded was made be deducted was required have been account have determined acquiesced infusing is accept knew seen made reconcile involving was yearned include was enamoured embracing seemed have seek make incur had sought tended interfere hinder being decided according was had been e..."
+28,eljames_fiftyshades_ch18.txt,eljames,Doc,"is dressed 'm reminded work 's is be shakes outstretched Thank coming says Thank making worth smiles assessing shake know 's does tolerate like gives stare takes be leaves be is paying attend do AFTER decide writes instructs pick love has lectured 's taking tell 's burning do give do think look collected 'd seen flush pass is is reading seated is playing swirling cocooning filling looks turns enter Are done asks 's continues Standing strolls Look 's is taken am say Is giving recovers intend Gazi..."
+29,eljames_fiftyshades_ch2.txt,eljames,Doc,"is pounding arrives scramble slide sprawling 'm bracing cleansing Raising welcome close take purifying trying recover 's left has affected has fathom Is do understand breathe was Leaning calm gather shake was breathe head begin feel 'm overreacting 's 's commanding 's 's runs be has be--he accomplished does 'm did give cruising continues wander 'm makes so driven succeed were had asking was shudder believe said swallow think cringe Damn check 'm driving know 's gazing telling drive Shaking reali..."
+40,meyer_twilight_ch2.txt,meyer,Doc,"WAS was was raining were was knew expect came sit walked was did look had sat included faces remembered began feel was treading drowning was was sleep echoing was called was raised had was had play did cringe hit was was was dreading fearing glares wanted confront know was was lying imagined say knew think have do made look walked trying keep sweeping failing saw were sitting was intercepted steered seemed joined tried listen was waiting arrive hoped ignore came prove did come passed grew walked..."
+41,meyer_twilight_ch21.txt,meyer,Doc,"COULD WAS WOKE knew was getting reversed lay listened were hear was rolled touched staggered said was were sitting sketching looked did look entered crept Did see asked brought 's watched drew were had was led was was balanced were aged goes whispered pointing stared was dialing stared slid touched seemed make stayed were trembling buzzing decipher concentrate said looked is coming get are going take hide is coming were holding 's catching meet leave came bubbled stay 's win know Do see 's doing..."
+1,austen_pride_ch1.txt,austen,Doc,"is acknowledged be little known be entering is fixed surrounding is considered said have heard is let r. replied had is returned has been told made Do want know has taken cried want tell have hearing was know says is taken came see was agreed is take are be is Is married be affect replied be know am thinking marrying Is settling talk is visit comes see go send be are like flatter have had do pretend be has give has think go see comes is engage assure consider think be are determined go know visi..."
+3,austen_pride_ch40.txt,austen,Doc,"acquaint had happened be overcome resolving suppress was concerned preparing be surprised related was lessened made appear was lost was have delivered suited recommend was grieved have given being succeeding was said have appeared consider increase replied am sorry has drive do blame refusing Blame blame having spoken do know were saying did know tell happened spoke repeating concerned was have gone believing existed was collected was consoling did prove clear involving do said be make Take be s..."
+2,austen_pride_ch2.txt,austen,Doc,"was waited had intended visit assuring go was paid had was disclosed Observing employed trimming addressed hope like are know likes said are visit forget said meet promised introduce do believe do has is have have said am find do depend serving deigned make contain began scolding Do keep coughing Have tear has said do replied is be To-morrow is cried does come be introduce know have introduce am acquainted be is know is do stand think decline take stared said be cried Do consider is laid agree s..."
+5,austen_sense_ch1.txt,austen,Doc,"had been settled was was had lived engage surrounding was lived had happened produced supply invited received intended bequeath were spent increased proceeded gave receive added had was provided had been devolved coming happened added was arise inheriting be had remaining was secured had died was read like gave was leave left had wished was secured leave providing were needed charge was tied had gained are means having outweigh had received meant be left was was hope live living lay had been com..."
+4,austen_pride_ch50.txt,austen,Doc,"had wished had laid survived wished Had done have been be purchased prevailing be have rested was concerned be forwarded was determined find discharge had married was held be were have was join cutting entail be be provided entered was come had been had been despaired was be saving had had prevented exceeding was settled be divided depended was was be settled have acceding though expressed delivered was done fulfil had been made had before supposed be prevailed marry be done be was be paid passe..."
+7,austen_sense_ch27.txt,austen,Doc,"holds said met leaving lose do seem take is cried spoke examine had thought keep was were restored is continued sat enjoy be expected have set freeze said wishing prevent seeing did dare say have warrant do has conjectured write DID was written sent eluded ascertain be was saw be was was spent leaving inform being was observing watching imagining Do find was seems keep warm was think seem parting be have was diverted persevered saw approaching had be dissatisfied was was conducted excepting had..."
+6,austen_sense_ch2.txt,austen,Doc,"installed were were treated feel pressed consider appeared remaining accommodate was accepted reminded was suited be is be carried was did approve intended do take be impoverishing begged think answer rob were considered have was known was supposed exist was ruin giving was replied assist did know was talking dare say was Had been have thought begging give did stipulate requested assist make was do have been had left suppose required do give thought was given be performed be done leave settle be..."
+9,barrie_peterpan_ch1.txt,barrie,Doc,"grow know grow knew was was was playing plucked ran suppose have looked put cried remain was passed knew grow know are is beginning lived came was was mocking was come is mocking had get was won was had been was discovered loved ran propose took nipped got got knew gave trying have got trying going slamming used boast Wendy loved respected was know knows seemed know said were were have made respect was married kept were was missing dropped were faces drew have been totting were came came was be..."
+8,austen_sense_ch41.txt,austen,Doc,"having carried proceeded was reached was assure called had seen were joined being was give give spoke was own declared present surprise believed doing valued was was be treated be raised resolved was had called had been taken began feel pay was opposed had contented refusing go was prevent going was disliked see looked taking overcome be was pay have run had dislike was denied turn came expressed meeting told had been going call assuring be see invited come walked was is suppose said go am have..."
+39,meyer_twilight_ch15.txt,meyer,Doc,"woke lay trying be remembered struggled break moaned rolled hoping come flooded sat made looks like came stayed rejoiced threw caught froze shocked stared had crossed laughed answered startled pleased rubbed laid breathing was was 're scoffed remembered jumping heading left reattaching add have admit was disappointed Is take stop were determined go deliberated stood wanting return have 're noted held return need admitted wait skipped did know was brushed worked straighten was splashed tried brea..."
+38,meyer_twilight_ch1.txt,meyer,Doc,"rolled was was wearing was wearing was named exists was escaped was was 'd been compelled spend was was put vacationed was exiled took detested loved loved blistering loved sprawling said got do have do looks felt stared leave fend had get paid be call got lost want go lied been 'd been saying sounded Tell said see insisted come want come need see Do worry urged be love hugged got was gone 's does bother was worried had been seemed was coming live 'd gotten registered was going help get was be w..."
+11,barrie_peterpan_ch2.txt,barrie,Doc,"screamed opened entered returned growled sprang leapt screamed thought was killed ran look was looked see thought was returned found proved be leapt had closed catch had had get went snapped be examined was had was do is come let put get disturbing leave hanging looked lowered thought showing was totting keep seemed knew say comes having decided roll put came telling came was have been used say was holding said am did had had sat recalling was stamped came faces had accepted dine said had poured..."
+10,barrie_peterpan_ch15.txt,barrie,Doc,"happen noticing have happened take have been do know say had come saw was stealing had seen noticing remembered had been ticking thought concluded had run giving be deprived began consider turn decided tick believe was let pass ticked was heard followed regaining had lost was ticking be known was reached went encountering had entered pass know swam had had ticked went ticking knowing was doing Had known have stopped had occurred thought had scaled was amazed see cowering had heard did remember h..."
+13,brown_angels_ch2_4.txt,brown,Doc,"have said answered damn do want explain tried tell was 'm run 've had saw did find focus was racing told tried gather was had developed made has challenged 'm have extracting was Sounds knows fired invented told was joking see insisted is discuss is stood analyzed was representing confirmed 's pressured were locked read had been based was felt coming face 've taken sending said be felt go Please forgive said need looked confirmed were gazed was looked settled knew had win said Tell meet were was..."
+12,brown_angels_ch1.txt,brown,Doc,"laughed called hurry knew have married was struggled keep felt Wait begged Please climbed began was thundering reach looked had disappeared stood rotting stared let resounded awoke was ringing picked 'm looking said sat tried clear is squinted was see is is 'm focus Are sure 've got 're 've written Do know is apologize have need see discuss knowing escaped had happened was wanted confirm had promised fly verify had appeared had called did get tried be frowned was did include was lying need see i..."
+15,brown_davinci_ch1.txt,brown,Doc,"awoke was ringing fumbled turned Squinting saw am hanging bore began lift picked said hope have awoken looked was had been felt is apologize have insists is felt focused crumpled presents groaned hidden ruffled had trailed pick 'm said 'm pressed lowering is had had made had increased arriving had seemed be said doing remain take tell try call leave Thank hung protest Sitting frowned boasted turned gazed staring was need had taken did appreciate seeing looked drawn was shrouding were advancing m..."
+14,brown_davinci_ch0.txt,brown,Doc,"Renowned staggered vaulted lunged see Grabbing heaved tore collapsed had anticipated thundering fell barricading shook began ring lay gasping taking am crawled scanned hide spoke Do move froze turning stared was thinning were drew aimed have run was place tell is told stammered kneeling have are talking are lying stared is felt know Tonight be restored Tell is hidden live leveled Is die breathe tilted peering held Wait said tell need know spoke told was had rehearsed praying have use had finishe..."
+17,brown_davinci_ch92.txt,brown,Doc,"established granted boasts possesses felt came entered was had described dominated have been were was pouring said leaving help Thank replied is gave know are feared had put suggested had gotten used were going recognize be said offering had hanging were said is greeted turned did know were coming did 's use finding shifted looking are 're shook 'm 've come speaks felt said brightened laughing comes 's swear die gives winked afford say Is help asked 's glanced deserted winked claim 'm imagine be..."
+16,brown_davinci_ch77.txt,brown,Doc,"was impressed Teabing had finished Granted 'd used was reading Teabing mopped plowed are written write using lose leaving blurted Teabing nodded began writing is Remember added is written use have do is create rewriting 's said taking works including learned wrote wrote left call Teabing eyed chuckled are see are doing Looking felt rising imagined have rivaled felt first used decrypt had been baffled called did appear was mentioned applied were cipher revealed was was was spelled placed became s..."
+19,conrad_secret_ch2.txt,conrad,Doc,"was left was exhaled wore unbuttoned were had sent beheld riding cantering advancing looking followed went emerging be said looked bloodshot--glorified stare hung had diffused cast was going were produced was having got surveyed approving had be protected is had be protected had be protected had be protected had be protected had have rubbed had been was suited was devoted had directs given was was required have been was requires implies was menaced have winked had been make were adapted winking..."
+18,conrad_secret_ch1.txt,conrad,Doc,"going left be done was cared was was was was existed dawned was glazed remained stood contained undressed dancing closed marked dry marking hinting printed were turned were hung slipping looking were had turned had being did seem plunged dodged start going was circumvent was cracked clattered clattered issue were had having wallowed dressed have felt depends knew remained seemed hold proceed sell object looking passed closed soiled covers happened get sold had been was appear was was preserved g..."
+31,grimms_hanselgretel.txt,grimms,Doc,"dwelt was called had bite break fell procure thought tossed groaned said is become are feed have tell answered take is light give go leave find be said do bear leave come tear fool said left consented feel said had been sleep had heard had said wept said is Be said do find help had fallen got put opened shone lay glittered stooped stuffed get went said Gretel Be comforted forsake lay dawned had risen came awoke saying Get are going fetch gave said is do eat get took had had walked stood peeped d..."
+30,eljames_fiftyshades_ch23.txt,eljames,Doc,"see is look 've seen 's 's have neglected see beginning thumping makes 's cheering Moving burnished recessed are shining is set am is be arrives gazing 's dressed hide seeing replies leaning taking is take turns greet am delighted meet does know gives no-prisoners does have hits get takes shake has replied is had manages smiles twinkling narrow are doing sounds mean disappears guarded am thrilled see thrown simmering do know want shout throw do think 'd want know has been watching 'm sent came s..."
+37,lewis_lionwitch_ch2.txt,lewis,Doc,"SAID was picking did had finished made said Excuse do want be be thinking are said understanding are--forgive are call asked 'm said are 'm said be be said 've seen am delighted is say stopped had been going say had intended had remembered went Allow introduce is am meet said ask said have come 's said is said are lies have come got said said had worked was know is are said 's 'm is said is has been catch stand talking reigns be came had Thank said was wondering be getting 's round said be 's sa..."
+36,lewis_lionwitch_ch14.txt,lewis,Doc,"HAD said move be wanted encamp was dying ask had arranged was were ringing dared was taken had got dried were taking were set had go explained has finished said fall prepare be cut prevent reaching went outline fighting assaulting was advising conduct saying put post see does do said be give answered continued giving was saw did talk seemed be was came had widened was was gave halt said be try seemed have been thinking roused said 's said said did matter make sighed added was is think does matte..."
+35,lewis_lionwitch_ch12.txt,lewis,Doc,"were saying were walking seemed had left had stopped saying Look 's say was listen walked drinking passing glades raised was had been saw vanishing had known did was happen came knew was spells had produced knew began had gone had been going realized be use sledge did hurry allowed rests were call slow does is coming had had left had turn meant reach had been have kept began melting was roaring thundering have been got got got began think closing said began leading felt grew coming made blow was..."
+34,lewis_lionwitch_ch1.txt,lewis,Doc,"THERE were is happened were sent were sent lived had lived called were do come was grew liked came meet was was was was wanted had keep pretending was blowing hide had said gone came talked 've fallen said is going be let do like think 's said come said was pretending be tired made bad-tempered Do go talking said 's were Trying talk said are say 'm go Go Had go said 's be 're heard talking said tell is going mind do hear 's walk 's said was had been leading was beginning make feel 's said 's sai..."
+33,grimms_wateroflife.txt,grimms,Doc,"were born reigned had fell thought live were grieved were walking met asked was told was were save know said is have be is get said find went begged go was save said had die meet begged let go thought bring make set had gone came looked saw called said is said rode was enraged laid rode became was straitened go step thought have turned go came heard found was closed was shut tried get make rang found move was forced abide spellbound was lingering said go thought is fall find was let go set follo..."
+32,grimms_snowdrop.txt,grimms,Doc,"was were falling was made sat looking pricked fell gazed drops sprinkled said be windowframe did grow was was called died married became was think be was had used go say Tell tell is tell had answered grew was was answered went look see is heard turned called said Take see led melted begged spare said hurt left thought tear felt were taken had made kill leave saving wandered roared did came went carry was was spread were laid stood was picked drank thought lie tried was was suited laid went slee..."
+44,11:cried stood,Topic,Topic,"Top words:cried stood fell ran wait closed reached lay carry dwarfs"
+45,10:make give,Topic,Topic,"Top words:make give made thought wanted hope expected walk shut smiling"
+46,13:found made,Topic,Topic,"Top words:found made felt gave sat began happened lived carried led"
+47,12:asked feel,Topic,Topic,"Top words:asked feel waiting smiled caught glanced finished noticed decided laughed"
+48,15:turning raised,Topic,Topic,"Top words:turning raised giving wore remained observed keeping exclaimed raising startled"
+49,14:stop talk,Topic,Topic,"Top words:stop talk staring feeling sleep find stand sit leaving touched"
+50,1:looked walked,Topic,Topic,"Top words:looked walked turned sitting continued held pulled stared knew stepped"
+51,3:hear read,Topic,Topic,"Top words:hear read wrote appeared written entered reading wished putting write"
+52,2:heard left,Topic,Topic,"Top words:heard left answered find leave understand remarked put started save"
+53,5:feel takes,Topic,Topic,"Top words:feel takes asks pulls understand breathes flush move turn murmurs"
+54,4:thought put,Topic,Topic,"Top words:thought put knew remember show returned thinking showed speak loved"
+55,7:live replied,Topic,Topic,"Top words:live replied suppose dare knowing married settled paid received considered"
+56,6:ve coming,Topic,Topic,"Top words:ve coming meet love talking hurt worked answer met stay"
+57,9:call taking,Topic,Topic,"Top words:call taking making lost watching wear dressed open wearing raise"
+58,8:told set,Topic,Topic,"Top words:told set called opened spoke began brought mind running die"
+edgedef>node1 VARCHAR, node2 VARCHAR, weight DOUBLE, size DOUBLE
+42,44,1.07,1.07
+42,58,2.08,2.08
+42,46,1.17,1.17
+42,57,1.02,1.02
+42,54,1.17,1.17
+43,44,1.72,1.72
+43,58,2.44,2.44
+43,54,1.1,1.1
+24,45,1.91,1.91
+24,46,1.31,1.31
+24,54,1.19,1.19
+25,45,1.09,1.09
+25,51,2.48,2.48
+26,57,1.06,1.06
+26,58,1.74,1.74
+26,55,1.52,1.52
+27,57,1.24,1.24
+27,45,1.07,1.07
+27,53,1.92,1.92
+27,49,2.16,2.16
+27,56,1.05,1.05
+20,46,1.44,1.44
+20,52,1.42,1.42
+20,51,1.2,1.2
+21,46,1.04,1.04
+21,52,2.38,2.38
+22,57,1.23,1.23
+22,52,1.87,1.87
+23,57,2.18,2.18
+23,46,1.13,1.13
+23,48,1.49,1.49
+23,54,1.35,1.35
+28,53,5.43,5.43
+28,49,1.19,1.19
+29,57,1.18,1.18
+29,45,1.04,1.04
+29,53,1.68,1.68
+29,49,1.54,1.54
+29,56,2.77,2.77
+40,50,1.99,1.99
+40,47,2.82,2.82
+40,49,1.06,1.06
+41,50,1.57,1.57
+41,44,1.13,1.13
+41,52,1.05,1.05
+41,56,1.98,1.98
+1,45,1.51,1.51
+1,55,5.09,5.09
+3,45,1.3,1.3
+3,48,1.07,1.07
+3,55,2.98,2.98
+2,51,1.11,1.11
+2,54,1.11,1.11
+2,55,2.92,2.92
+5,46,1.68,1.68
+5,55,3.6,3.6
+4,45,1.18,1.18
+4,51,1.44,1.44
+4,55,3.69,3.69
+7,51,1.24,1.24
+7,55,2.71,2.71
+6,45,1.63,1.63
+6,55,3.48,3.48
+9,44,1.25,1.25
+9,46,2.23,2.23
+9,54,2.57,2.57
+8,45,1.09,1.09
+8,55,2.76,2.76
+39,50,1.16,1.16
+39,47,2.9,2.9
+38,50,2.75,2.75
+38,46,1.11,1.11
+38,47,1.25,1.25
+11,44,1.16,1.16
+11,54,3.9,3.9
+10,44,3.43,3.43
+10,54,1.46,1.46
+13,50,1.67,1.67
+13,46,1.07,1.07
+13,56,1.07,1.07
+12,50,1.52,1.52
+12,57,1.14,1.14
+12,46,1.44,1.44
+15,50,1.45,1.45
+15,57,1.13,1.13
+15,46,1.7,1.7
+15,47,1.13,1.13
+14,44,1.33,1.33
+14,58,1.68,1.68
+14,47,1.06,1.06
+14,50,1.33,1.33
+14,56,1.06,1.06
+17,47,2.65,2.65
+17,54,1.05,1.05
+16,51,3.19,3.19
+16,47,1.43,1.43
+19,48,3.1,3.1
+18,46,1.42,1.42
+18,48,1.86,1.86
+31,44,3.4,3.4
+31,58,1.13,1.13
+31,52,1.58,1.58
+30,53,4.29,4.29
+30,49,1.77,1.77
+30,56,1.27,1.27
+37,46,1.52,1.52
+37,54,1.17,1.17
+37,56,2.11,2.11
+36,44,1.6,1.6
+36,50,1.17,1.17
+36,46,1.46,1.46
+36,49,1.13,1.13
+35,44,1.53,1.53
+35,50,1.11,1.11
+35,46,1.68,1.68
+34,50,1.1,1.1
+34,46,2.37,2.37
+34,47,1.53,1.53
+33,58,3.07,3.07
+33,46,1.04,1.04
+33,52,1.08,1.08
+33,45,1.24,1.24
+32,44,2.67,2.67
+32,58,1.78,1.78
+32,46,1.11,1.11

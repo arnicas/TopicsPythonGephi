@@ -1,0 +1,3424 @@
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="edge" mode="static">
+      <attribute id="1" title="count" type="integer" />
+      <attribute id="2" title="score" type="double" />
+      <attribute id="3" title="median" type="double" />
+      <attribute id="4" title="label" type="string" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="author" type="string" />
+    </attributes>
+    <nodes>
+      <node id="1" label="austen_pride_ch1.txt">
+        <attvalues>
+          <attvalue for="0" value="austen" />
+        </attvalues>
+      </node>
+      <node id="2" label="austen_pride_ch2.txt">
+        <attvalues>
+          <attvalue for="0" value="austen" />
+        </attvalues>
+      </node>
+      <node id="3" label="austen_pride_ch40.txt">
+        <attvalues>
+          <attvalue for="0" value="austen" />
+        </attvalues>
+      </node>
+      <node id="4" label="austen_pride_ch50.txt">
+        <attvalues>
+          <attvalue for="0" value="austen" />
+        </attvalues>
+      </node>
+      <node id="5" label="austen_sense_ch1.txt">
+        <attvalues>
+          <attvalue for="0" value="austen" />
+        </attvalues>
+      </node>
+      <node id="6" label="austen_sense_ch2.txt">
+        <attvalues>
+          <attvalue for="0" value="austen" />
+        </attvalues>
+      </node>
+      <node id="7" label="austen_sense_ch27.txt">
+        <attvalues>
+          <attvalue for="0" value="austen" />
+        </attvalues>
+      </node>
+      <node id="8" label="austen_sense_ch41.txt">
+        <attvalues>
+          <attvalue for="0" value="austen" />
+        </attvalues>
+      </node>
+      <node id="9" label="barrie_peterpan_ch1.txt">
+        <attvalues>
+          <attvalue for="0" value="barrie" />
+        </attvalues>
+      </node>
+      <node id="10" label="barrie_peterpan_ch15.txt">
+        <attvalues>
+          <attvalue for="0" value="barrie" />
+        </attvalues>
+      </node>
+      <node id="11" label="barrie_peterpan_ch2.txt">
+        <attvalues>
+          <attvalue for="0" value="barrie" />
+        </attvalues>
+      </node>
+      <node id="12" label="brown_angels_ch1.txt">
+        <attvalues>
+          <attvalue for="0" value="brown" />
+        </attvalues>
+      </node>
+      <node id="13" label="brown_angels_ch2_4.txt">
+        <attvalues>
+          <attvalue for="0" value="brown" />
+        </attvalues>
+      </node>
+      <node id="14" label="brown_davinci_ch0.txt">
+        <attvalues>
+          <attvalue for="0" value="brown" />
+        </attvalues>
+      </node>
+      <node id="15" label="brown_davinci_ch1.txt">
+        <attvalues>
+          <attvalue for="0" value="brown" />
+        </attvalues>
+      </node>
+      <node id="16" label="brown_davinci_ch77.txt">
+        <attvalues>
+          <attvalue for="0" value="brown" />
+        </attvalues>
+      </node>
+      <node id="17" label="brown_davinci_ch92.txt">
+        <attvalues>
+          <attvalue for="0" value="brown" />
+        </attvalues>
+      </node>
+      <node id="18" label="conrad_secret_ch1.txt">
+        <attvalues>
+          <attvalue for="0" value="conrad" />
+        </attvalues>
+      </node>
+      <node id="19" label="conrad_secret_ch2.txt">
+        <attvalues>
+          <attvalue for="0" value="conrad" />
+        </attvalues>
+      </node>
+      <node id="20" label="doyle_caseofidentity.txt">
+        <attvalues>
+          <attvalue for="0" value="doyle" />
+        </attvalues>
+      </node>
+      <node id="21" label="doyle_redheadedleague.txt">
+        <attvalues>
+          <attvalue for="0" value="doyle" />
+        </attvalues>
+      </node>
+      <node id="22" label="doyle_scandalbohemia.txt">
+        <attvalues>
+          <attvalue for="0" value="doyle" />
+        </attvalues>
+      </node>
+      <node id="23" label="eliot_middlemarch_ch1.txt">
+        <attvalues>
+          <attvalue for="0" value="eliot" />
+        </attvalues>
+      </node>
+      <node id="24" label="eliot_middlemarch_ch2.txt">
+        <attvalues>
+          <attvalue for="0" value="eliot" />
+        </attvalues>
+      </node>
+      <node id="25" label="eliot_middlemarch_ch48.txt">
+        <attvalues>
+          <attvalue for="0" value="eliot" />
+        </attvalues>
+      </node>
+      <node id="26" label="eliot_middlemarch_ch73.txt">
+        <attvalues>
+          <attvalue for="0" value="eliot" />
+        </attvalues>
+      </node>
+      <node id="27" label="grimms_hanselgretel.txt">
+        <attvalues>
+          <attvalue for="0" value="grimms" />
+        </attvalues>
+      </node>
+      <node id="28" label="grimms_snowdrop.txt">
+        <attvalues>
+          <attvalue for="0" value="grimms" />
+        </attvalues>
+      </node>
+      <node id="29" label="grimms_wateroflife.txt">
+        <attvalues>
+          <attvalue for="0" value="grimms" />
+        </attvalues>
+      </node>
+      <node id="30" label="james_fiftyshades_ch1.txt">
+        <attvalues>
+          <attvalue for="0" value="james" />
+        </attvalues>
+      </node>
+      <node id="31" label="james_fiftyshades_ch18.txt">
+        <attvalues>
+          <attvalue for="0" value="james" />
+        </attvalues>
+      </node>
+      <node id="32" label="james_fiftyshades_ch2.txt">
+        <attvalues>
+          <attvalue for="0" value="james" />
+        </attvalues>
+      </node>
+      <node id="33" label="james_fiftyshades_ch23.txt">
+        <attvalues>
+          <attvalue for="0" value="james" />
+        </attvalues>
+      </node>
+      <node id="34" label="lewis_lionwitch_ch1.txt">
+        <attvalues>
+          <attvalue for="0" value="lewis" />
+        </attvalues>
+      </node>
+      <node id="35" label="lewis_lionwitch_ch12.txt">
+        <attvalues>
+          <attvalue for="0" value="lewis" />
+        </attvalues>
+      </node>
+      <node id="36" label="lewis_lionwitch_ch14.txt">
+        <attvalues>
+          <attvalue for="0" value="lewis" />
+        </attvalues>
+      </node>
+      <node id="37" label="lewis_lionwitch_ch2.txt">
+        <attvalues>
+          <attvalue for="0" value="lewis" />
+        </attvalues>
+      </node>
+      <node id="38" label="meyer_twilight_ch1.txt">
+        <attvalues>
+          <attvalue for="0" value="meyer" />
+        </attvalues>
+      </node>
+      <node id="39" label="meyer_twilight_ch15.txt">
+        <attvalues>
+          <attvalue for="0" value="meyer" />
+        </attvalues>
+      </node>
+      <node id="40" label="meyer_twilight_ch2.txt">
+        <attvalues>
+          <attvalue for="0" value="meyer" />
+        </attvalues>
+      </node>
+      <node id="41" label="meyer_twilight_ch21.txt">
+        <attvalues>
+          <attvalue for="0" value="meyer" />
+        </attvalues>
+      </node>
+      <node id="42" label="stevenson_treasure_ch1.txt">
+        <attvalues>
+          <attvalue for="0" value="stevenson" />
+        </attvalues>
+      </node>
+      <node id="43" label="stevenson_treasure_ch2.txt">
+        <attvalues>
+          <attvalue for="0" value="stevenson" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="1" target="2" weight="11.1111111111">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="11.1111111111" />
+          <attvalue for="3" value="11.1111111111" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="1" target="3" weight="2.27272727273">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="2.27272727273" />
+          <attvalue for="3" value="2.27272727273" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="1" target="4" weight="8.25396825397">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="8.25396825397" />
+          <attvalue for="3" value="8.25396825397" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="1" target="5" weight="2.77777777778">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="2.77777777778" />
+          <attvalue for="3" value="2.77777777778" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="1" target="6" weight="1.12750885478">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.12750885478" />
+          <attvalue for="3" value="1.12750885478" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="1" target="7" weight="3.74269005848">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="3.74269005848" />
+          <attvalue for="3" value="3.74269005848" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="1" target="8" weight="6.31578947368">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="6.31578947368" />
+          <attvalue for="3" value="6.31578947368" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="1" target="42" weight="1.0989010989">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.0989010989" />
+          <attvalue for="3" value="1.0989010989" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="1" target="18" weight="0.78125">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.78125" />
+          <attvalue for="3" value="0.78125" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="1" target="19" weight="0.900900900901">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.900900900901" />
+          <attvalue for="3" value="0.900900900901" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="1" target="20" weight="1.02040816327">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.02040816327" />
+          <attvalue for="3" value="1.02040816327" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="1" target="22" weight="0.877192982456">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.877192982456" />
+          <attvalue for="3" value="0.877192982456" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="1" target="23" weight="1.50630766334">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.50630766334" />
+          <attvalue for="3" value="1.50630766334" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="1" target="24" weight="2.4013024013">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="2.4013024013" />
+          <attvalue for="3" value="2.4013024013" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="1" target="25" weight="0.90031152648">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0.90031152648" />
+          <attvalue for="3" value="0.90031152648" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="1" target="26" weight="0.645161290323">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.645161290323" />
+          <attvalue for="3" value="0.645161290323" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="2" target="3" weight="1.33333333333">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.33333333333" />
+          <attvalue for="3" value="1.33333333333" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="2" target="4" weight="2.77777777778">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.77777777778" />
+          <attvalue for="3" value="2.77777777778" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="2" target="5" weight="5.55555555556">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="5.55555555556" />
+          <attvalue for="3" value="5.55555555556" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="2" target="6" weight="1.26582278481">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.26582278481" />
+          <attvalue for="3" value="1.26582278481" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="2" target="7" weight="10.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="10.0" />
+          <attvalue for="3" value="10.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="2" target="8" weight="5.26315789474">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="5.26315789474" />
+          <attvalue for="3" value="5.26315789474" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="2" target="42" weight="6.66666666667">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="6.66666666667" />
+          <attvalue for="3" value="6.66666666667" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="2" target="18" weight="3.44827586207">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.44827586207" />
+          <attvalue for="3" value="3.44827586207" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="2" target="22" weight="3.22580645161">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.22580645161" />
+          <attvalue for="3" value="3.22580645161" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="2" target="23" weight="1.78571428571">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.78571428571" />
+          <attvalue for="3" value="1.78571428571" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="2" target="24" weight="2.77777777778">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.77777777778" />
+          <attvalue for="3" value="2.77777777778" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="2" target="25" weight="1.69480348193">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.69480348193" />
+          <attvalue for="3" value="1.69480348193" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="2" target="27" weight="0.198807157058">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.198807157058" />
+          <attvalue for="3" value="0.198807157058" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="2" target="28" weight="1.0101010101">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.0101010101" />
+          <attvalue for="3" value="1.0101010101" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="3" target="4" weight="1.70045045045">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.70045045045" />
+          <attvalue for="3" value="1.70045045045" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="3" target="5" weight="2.91858678955">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="2.91858678955" />
+          <attvalue for="3" value="2.91858678955" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="3" target="6" weight="13.0681818182">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="13.0681818182" />
+          <attvalue for="3" value="13.0681818182" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="3" target="39" weight="10.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="10.0" />
+          <attvalue for="3" value="10.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="3" target="40" weight="100.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="100.0" />
+          <attvalue for="3" value="100.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="3" target="42" weight="0.806451612903">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.806451612903" />
+          <attvalue for="3" value="0.806451612903" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="3" target="7" weight="1.22926093514">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.22926093514" />
+          <attvalue for="3" value="1.22926093514" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="3" target="14" weight="3.22580645161">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.22580645161" />
+          <attvalue for="3" value="3.22580645161" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="3" target="8" weight="13.9285714286">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="13.9285714286" />
+          <attvalue for="3" value="20.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="3" target="18" weight="0.621118012422">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.621118012422" />
+          <attvalue for="3" value="0.621118012422" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="3" target="19" weight="0.694444444444">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.694444444444" />
+          <attvalue for="3" value="0.694444444444" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="3" target="20" weight="0.763358778626">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.763358778626" />
+          <attvalue for="3" value="0.763358778626" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="3" target="21" weight="7.14285714286">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="7.14285714286" />
+          <attvalue for="3" value="7.14285714286" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="3" target="22" weight="0.680272108844">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.680272108844" />
+          <attvalue for="3" value="0.680272108844" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="3" target="23" weight="2.9927974773">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="2.9927974773" />
+          <attvalue for="3" value="3.0303030303" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="3" target="24" weight="4.82722176271">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="4.82722176271" />
+          <attvalue for="3" value="2.5641025641" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="3" target="25" weight="0.798417465084">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="0.798417465084" />
+          <attvalue for="3" value="0.793650793651" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="3" target="26" weight="1.40983606557">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.40983606557" />
+          <attvalue for="3" value="1.40983606557" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="3" target="31" weight="33.3333333333">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="33.3333333333" />
+          <attvalue for="3" value="33.3333333333" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="4" target="5" weight="3.59744990893">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="3.59744990893" />
+          <attvalue for="3" value="3.59744990893" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="4" target="6" weight="0.825407608696">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0.825407608696" />
+          <attvalue for="3" value="0.825407608696" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="4" target="7" weight="3.23886639676">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="3.23886639676" />
+          <attvalue for="3" value="3.23886639676" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="4" target="8" weight="2.0202020202">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="2.0202020202" />
+          <attvalue for="3" value="2.0202020202" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="4" target="42" weight="1.19047619048">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.19047619048" />
+          <attvalue for="3" value="1.19047619048" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="4" target="18" weight="0.826446280992">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.826446280992" />
+          <attvalue for="3" value="0.826446280992" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="4" target="19" weight="0.961538461538">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.961538461538" />
+          <attvalue for="3" value="0.961538461538" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="4" target="20" weight="1.0989010989">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.0989010989" />
+          <attvalue for="3" value="1.0989010989" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="4" target="22" weight="0.934579439252">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.934579439252" />
+          <attvalue for="3" value="0.934579439252" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="4" target="23" weight="1.01517637408">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.01517637408" />
+          <attvalue for="3" value="1.01517637408" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="4" target="24" weight="1.28968253968">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.28968253968" />
+          <attvalue for="3" value="1.28968253968" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="4" target="25" weight="0.928344310697">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0.928344310697" />
+          <attvalue for="3" value="0.928344310697" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="4" target="26" weight="0.617283950617">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.617283950617" />
+          <attvalue for="3" value="0.617283950617" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="5" target="6" weight="1.26173257424">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.26173257424" />
+          <attvalue for="3" value="1.26173257424" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="5" target="7" weight="6.75505050505">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="6.75505050505" />
+          <attvalue for="3" value="6.75505050505" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="5" target="8" weight="4.47635135135">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="4.47635135135" />
+          <attvalue for="3" value="4.47635135135" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="5" target="42" weight="0.689655172414">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.689655172414" />
+          <attvalue for="3" value="0.689655172414" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="5" target="18" weight="0.549450549451">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.549450549451" />
+          <attvalue for="3" value="0.549450549451" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="5" target="19" weight="0.606060606061">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.606060606061" />
+          <attvalue for="3" value="0.606060606061" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="5" target="20" weight="0.657894736842">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.657894736842" />
+          <attvalue for="3" value="0.657894736842" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="5" target="22" weight="0.595238095238">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.595238095238" />
+          <attvalue for="3" value="0.595238095238" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="5" target="23" weight="0.97507687328">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0.97507687328" />
+          <attvalue for="3" value="0.97507687328" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="5" target="24" weight="1.27075351213">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.27075351213" />
+          <attvalue for="3" value="1.27075351213" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="5" target="25" weight="0.595065778893">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0.595065778893" />
+          <attvalue for="3" value="0.595065778893" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="5" target="26" weight="0.990099009901">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.990099009901" />
+          <attvalue for="3" value="0.990099009901" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="6" target="7" weight="0.863002572086">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0.863002572086" />
+          <attvalue for="3" value="0.863002572086" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="6" target="8" weight="1.43574297189">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.43574297189" />
+          <attvalue for="3" value="1.43574297189" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="6" target="42" weight="0.471698113208">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.471698113208" />
+          <attvalue for="3" value="0.471698113208" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="6" target="18" weight="0.401606425703">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.401606425703" />
+          <attvalue for="3" value="0.401606425703" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="6" target="19" weight="0.431034482759">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.431034482759" />
+          <attvalue for="3" value="0.431034482759" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="6" target="20" weight="0.456621004566">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.456621004566" />
+          <attvalue for="3" value="0.456621004566" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="6" target="22" weight="0.425531914894">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.425531914894" />
+          <attvalue for="3" value="0.425531914894" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="81" source="6" target="23" weight="2.38758825715">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="2.38758825715" />
+          <attvalue for="3" value="2.38758825715" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="82" source="6" target="24" weight="1.39863975428">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.39863975428" />
+          <attvalue for="3" value="1.39863975428" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="83" source="6" target="25" weight="0.602324263039">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0.602324263039" />
+          <attvalue for="3" value="0.602324263039" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="84" source="6" target="26" weight="2.94117647059">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.94117647059" />
+          <attvalue for="3" value="2.94117647059" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="85" source="7" target="8" weight="2.32654756959">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="2.32654756959" />
+          <attvalue for="3" value="2.32654756959" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="86" source="7" target="42" weight="2.17391304348">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.17391304348" />
+          <attvalue for="3" value="2.17391304348" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="87" source="7" target="18" weight="1.20481927711">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.20481927711" />
+          <attvalue for="3" value="1.20481927711" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="88" source="7" target="19" weight="1.51515151515">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.51515151515" />
+          <attvalue for="3" value="1.51515151515" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="89" source="7" target="20" weight="1.88679245283">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.88679245283" />
+          <attvalue for="3" value="1.88679245283" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="90" source="7" target="22" weight="1.44927536232">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.44927536232" />
+          <attvalue for="3" value="1.44927536232" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="91" source="7" target="23" weight="1.49286987522">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.49286987522" />
+          <attvalue for="3" value="1.49286987522" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="92" source="7" target="24" weight="2.17391304348">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="2.17391304348" />
+          <attvalue for="3" value="2.17391304348" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="93" source="7" target="25" weight="1.88125894134">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.88125894134" />
+          <attvalue for="3" value="1.88125894134" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="94" source="7" target="26" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.5" />
+          <attvalue for="3" value="0.5" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="95" source="8" target="39" weight="6.66666666667">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="6.66666666667" />
+          <attvalue for="3" value="6.66666666667" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="96" source="8" target="40" weight="20.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="20.0" />
+          <attvalue for="3" value="20.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="97" source="8" target="42" weight="0.77519379845">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.77519379845" />
+          <attvalue for="3" value="0.77519379845" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="98" source="8" target="14" weight="3.84615384615">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.84615384615" />
+          <attvalue for="3" value="3.84615384615" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="99" source="8" target="18" weight="0.602409638554">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.602409638554" />
+          <attvalue for="3" value="0.602409638554" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="100" source="8" target="19" weight="0.671140939597">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.671140939597" />
+          <attvalue for="3" value="0.671140939597" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="101" source="8" target="20" weight="0.735294117647">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.735294117647" />
+          <attvalue for="3" value="0.735294117647" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="102" source="8" target="21" weight="5.26315789474">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="5.26315789474" />
+          <attvalue for="3" value="5.26315789474" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="103" source="8" target="22" weight="0.657894736842">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.657894736842" />
+          <attvalue for="3" value="0.657894736842" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="104" source="8" target="23" weight="2.31212764325">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="2.31212764325" />
+          <attvalue for="3" value="2.7027027027" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="105" source="8" target="24" weight="10.5525155799">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="10.5525155799" />
+          <attvalue for="3" value="5.88235294118" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="106" source="8" target="25" weight="0.733866037212">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="0.733866037212" />
+          <attvalue for="3" value="0.826446280992" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="107" source="8" target="26" weight="1.53846153846">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.53846153846" />
+          <attvalue for="3" value="1.53846153846" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="108" source="8" target="31" weight="12.5">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="12.5" />
+          <attvalue for="3" value="12.5" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="109" source="9" target="10" weight="0.25974025974">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.25974025974" />
+          <attvalue for="3" value="0.25974025974" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="110" source="9" target="11" weight="1.25">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.25" />
+          <attvalue for="3" value="1.25" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="111" source="10" target="11" weight="0.215053763441">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.215053763441" />
+          <attvalue for="3" value="0.215053763441" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="112" source="10" target="14" weight="0.273224043716">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.273224043716" />
+          <attvalue for="3" value="0.273224043716" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="113" source="10" target="15" weight="16.6666666667">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="16.6666666667" />
+          <attvalue for="3" value="16.6666666667" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="114" source="10" target="18" weight="12.5">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="12.5" />
+          <attvalue for="3" value="12.5" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="115" source="10" target="19" weight="3.84615384615">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.84615384615" />
+          <attvalue for="3" value="3.84615384615" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="116" source="10" target="21" weight="50.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="50.0" />
+          <attvalue for="3" value="50.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="117" source="10" target="22" weight="9.09090909091">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="9.09090909091" />
+          <attvalue for="3" value="9.09090909091" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="118" source="10" target="28" weight="7.14285714286">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="7.14285714286" />
+          <attvalue for="3" value="7.14285714286" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="119" source="10" target="29" weight="0.847457627119">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.847457627119" />
+          <attvalue for="3" value="0.847457627119" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="120" source="10" target="30" weight="1.49253731343">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.49253731343" />
+          <attvalue for="3" value="1.49253731343" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="121" source="10" target="31" weight="1.03092783505">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.03092783505" />
+          <attvalue for="3" value="1.03092783505" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="122" source="10" target="32" weight="3.22580645161">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.22580645161" />
+          <attvalue for="3" value="3.22580645161" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="123" source="10" target="33" weight="1.20481927711">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.20481927711" />
+          <attvalue for="3" value="1.20481927711" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="124" source="10" target="34" weight="1.19047619048">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.19047619048" />
+          <attvalue for="3" value="1.19047619048" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="125" source="10" target="35" weight="2.13812154696">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="2.13812154696" />
+          <attvalue for="3" value="2.13812154696" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="126" source="10" target="36" weight="100.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="100.0" />
+          <attvalue for="3" value="100.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="127" source="10" target="37" weight="3.57142857143">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.57142857143" />
+          <attvalue for="3" value="3.57142857143" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="128" source="10" target="38" weight="1.53846153846">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.53846153846" />
+          <attvalue for="3" value="1.53846153846" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="129" source="10" target="39" weight="0.917431192661">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.917431192661" />
+          <attvalue for="3" value="0.917431192661" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="130" source="10" target="40" weight="3.7037037037">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.7037037037" />
+          <attvalue for="3" value="3.7037037037" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="131" source="10" target="41" weight="0.526315789474">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.526315789474" />
+          <attvalue for="3" value="0.526315789474" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="132" source="10" target="42" weight="2.5415601023">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="2.5415601023" />
+          <attvalue for="3" value="2.5415601023" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="133" source="10" target="43" weight="0.704539816423">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0.704539816423" />
+          <attvalue for="3" value="0.704539816423" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="134" source="12" target="16" weight="0.42194092827">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.42194092827" />
+          <attvalue for="3" value="0.42194092827" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="135" source="12" target="17" weight="0.46511627907">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.46511627907" />
+          <attvalue for="3" value="0.46511627907" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="136" source="12" target="13" weight="2.85714285714">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.85714285714" />
+          <attvalue for="3" value="2.85714285714" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="137" source="12" target="14" weight="1.3698630137">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.3698630137" />
+          <attvalue for="3" value="1.3698630137" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="138" source="12" target="15" weight="2.04081632653">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.04081632653" />
+          <attvalue for="3" value="2.04081632653" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="139" source="13" target="38" weight="0.371747211896">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.371747211896" />
+          <attvalue for="3" value="0.371747211896" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="140" source="13" target="39" weight="0.769230769231">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.769230769231" />
+          <attvalue for="3" value="0.769230769231" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="141" source="13" target="40" weight="0.322580645161">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.322580645161" />
+          <attvalue for="3" value="0.322580645161" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="142" source="13" target="41" weight="0.591715976331">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.591715976331" />
+          <attvalue for="3" value="0.591715976331" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="143" source="13" target="14" weight="2.63157894737">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.63157894737" />
+          <attvalue for="3" value="2.63157894737" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="144" source="13" target="15" weight="1.19047619048">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.19047619048" />
+          <attvalue for="3" value="1.19047619048" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="145" source="13" target="16" weight="0.367647058824">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.367647058824" />
+          <attvalue for="3" value="0.367647058824" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="146" source="13" target="17" weight="0.4">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.4" />
+          <attvalue for="3" value="0.4" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="147" source="14" target="35" weight="25.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="25.0" />
+          <attvalue for="3" value="25.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="148" source="14" target="39" weight="2.43902439024">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.43902439024" />
+          <attvalue for="3" value="2.43902439024" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="149" source="14" target="43" weight="0.452488687783">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.452488687783" />
+          <attvalue for="3" value="0.452488687783" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="150" source="14" target="15" weight="0.819672131148">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.819672131148" />
+          <attvalue for="3" value="0.819672131148" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="151" source="14" target="16" weight="0.322580645161">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.322580645161" />
+          <attvalue for="3" value="0.322580645161" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="152" source="14" target="17" weight="0.347222222222">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.347222222222" />
+          <attvalue for="3" value="0.347222222222" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="153" source="14" target="42" weight="0.434782608696">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.434782608696" />
+          <attvalue for="3" value="0.434782608696" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="154" source="14" target="40" weight="3.22580645161">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.22580645161" />
+          <attvalue for="3" value="3.22580645161" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="155" source="14" target="21" weight="2.22222222222">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.22222222222" />
+          <attvalue for="3" value="2.22222222222" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="156" source="14" target="23" weight="50.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="50.0" />
+          <attvalue for="3" value="50.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="157" source="14" target="24" weight="4.54545454545">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="4.54545454545" />
+          <attvalue for="3" value="4.54545454545" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="158" source="14" target="25" weight="1.05263157895">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.05263157895" />
+          <attvalue for="3" value="1.05263157895" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="159" source="14" target="26" weight="5.26315789474">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="5.26315789474" />
+          <attvalue for="3" value="5.26315789474" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="160" source="14" target="28" weight="0.284090909091">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.284090909091" />
+          <attvalue for="3" value="0.284090909091" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="161" source="14" target="29" weight="0.206611570248">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.206611570248" />
+          <attvalue for="3" value="0.206611570248" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="162" source="14" target="31" weight="2.94117647059">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.94117647059" />
+          <attvalue for="3" value="2.94117647059" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="163" source="15" target="16" weight="0.531914893617">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.531914893617" />
+          <attvalue for="3" value="0.531914893617" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="164" source="15" target="17" weight="0.602409638554">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.602409638554" />
+          <attvalue for="3" value="0.602409638554" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="165" source="15" target="18" weight="50.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="50.0" />
+          <attvalue for="3" value="50.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="166" source="15" target="19" weight="3.125">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.125" />
+          <attvalue for="3" value="3.125" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="167" source="15" target="21" weight="12.5">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="12.5" />
+          <attvalue for="3" value="12.5" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="168" source="15" target="22" weight="5.88235294118">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="5.88235294118" />
+          <attvalue for="3" value="5.88235294118" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="169" source="15" target="30" weight="1.3698630137">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.3698630137" />
+          <attvalue for="3" value="1.3698630137" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="170" source="15" target="31" weight="0.970873786408">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.970873786408" />
+          <attvalue for="3" value="0.970873786408" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="171" source="15" target="32" weight="2.7027027027">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.7027027027" />
+          <attvalue for="3" value="2.7027027027" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="172" source="15" target="33" weight="1.12359550562">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.12359550562" />
+          <attvalue for="3" value="1.12359550562" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="173" source="15" target="34" weight="1.11111111111">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.11111111111" />
+          <attvalue for="3" value="1.11111111111" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="174" source="15" target="35" weight="3.22580645161">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.22580645161" />
+          <attvalue for="3" value="3.22580645161" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="175" source="15" target="36" weight="16.6666666667">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="16.6666666667" />
+          <attvalue for="3" value="16.6666666667" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="176" source="15" target="37" weight="2.94117647059">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.94117647059" />
+          <attvalue for="3" value="2.94117647059" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="177" source="15" target="38" weight="1.40845070423">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.40845070423" />
+          <attvalue for="3" value="1.40845070423" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="178" source="15" target="39" weight="0.869565217391">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.869565217391" />
+          <attvalue for="3" value="0.869565217391" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="179" source="15" target="40" weight="3.0303030303">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.0303030303" />
+          <attvalue for="3" value="3.0303030303" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="180" source="15" target="41" weight="0.510204081633">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.510204081633" />
+          <attvalue for="3" value="0.510204081633" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="181" source="15" target="42" weight="3.44827586207">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.44827586207" />
+          <attvalue for="3" value="3.44827586207" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="182" source="15" target="43" weight="0.689655172414">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.689655172414" />
+          <attvalue for="3" value="0.689655172414" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="183" source="16" target="17" weight="4.54545454545">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="4.54545454545" />
+          <attvalue for="3" value="4.54545454545" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="184" source="18" target="19" weight="3.22128851541">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="3.22128851541" />
+          <attvalue for="3" value="2.94117647059" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="185" source="18" target="20" weight="3.33333333333">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.33333333333" />
+          <attvalue for="3" value="3.33333333333" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="186" source="18" target="21" weight="10.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="10.0" />
+          <attvalue for="3" value="10.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="187" source="18" target="22" weight="20.8020050125">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="20.8020050125" />
+          <attvalue for="3" value="7.14285714286" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="188" source="18" target="23" weight="6.66666666667">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="6.66666666667" />
+          <attvalue for="3" value="6.66666666667" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="189" source="18" target="24" weight="2.7027027027">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.7027027027" />
+          <attvalue for="3" value="2.7027027027" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="190" source="18" target="25" weight="10.9433962264">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="10.9433962264" />
+          <attvalue for="3" value="10.9433962264" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="191" source="18" target="26" weight="0.353356890459">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.353356890459" />
+          <attvalue for="3" value="0.353356890459" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="192" source="18" target="27" weight="0.187969924812">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.187969924812" />
+          <attvalue for="3" value="0.187969924812" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="193" source="18" target="28" weight="0.78125">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.78125" />
+          <attvalue for="3" value="0.78125" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="194" source="18" target="30" weight="1.33333333333">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.33333333333" />
+          <attvalue for="3" value="1.33333333333" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="195" source="18" target="31" weight="0.952380952381">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.952380952381" />
+          <attvalue for="3" value="0.952380952381" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="196" source="18" target="32" weight="2.5641025641">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.5641025641" />
+          <attvalue for="3" value="2.5641025641" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="197" source="18" target="33" weight="1.0989010989">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.0989010989" />
+          <attvalue for="3" value="1.0989010989" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="198" source="18" target="34" weight="1.08695652174">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.08695652174" />
+          <attvalue for="3" value="1.08695652174" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="199" source="18" target="35" weight="3.0303030303">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.0303030303" />
+          <attvalue for="3" value="3.0303030303" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="200" source="18" target="36" weight="12.5">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="12.5" />
+          <attvalue for="3" value="12.5" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="201" source="18" target="37" weight="2.77777777778">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.77777777778" />
+          <attvalue for="3" value="2.77777777778" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="202" source="18" target="38" weight="1.3698630137">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.3698630137" />
+          <attvalue for="3" value="1.3698630137" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="203" source="18" target="39" weight="0.854700854701">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.854700854701" />
+          <attvalue for="3" value="0.854700854701" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="204" source="18" target="40" weight="2.85714285714">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.85714285714" />
+          <attvalue for="3" value="2.85714285714" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="205" source="18" target="41" weight="0.505050505051">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.505050505051" />
+          <attvalue for="3" value="0.505050505051" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="206" source="18" target="42" weight="4.35712209906">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="4.35712209906" />
+          <attvalue for="3" value="3.22580645161" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="207" source="18" target="43" weight="0.680272108844">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.680272108844" />
+          <attvalue for="3" value="0.680272108844" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="208" source="19" target="20" weight="7.69230769231">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="7.69230769231" />
+          <attvalue for="3" value="7.69230769231" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="209" source="19" target="21" weight="4.16666666667">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="4.16666666667" />
+          <attvalue for="3" value="4.16666666667" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="210" source="19" target="22" weight="20.0">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="20.0" />
+          <attvalue for="3" value="20.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="211" source="19" target="23" weight="50.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="50.0" />
+          <attvalue for="3" value="50.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="212" source="19" target="24" weight="5.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="5.0" />
+          <attvalue for="3" value="5.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="213" source="19" target="25" weight="2.77777777778">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.77777777778" />
+          <attvalue for="3" value="2.77777777778" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="214" source="19" target="26" weight="0.375939849624">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.375939849624" />
+          <attvalue for="3" value="0.375939849624" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="215" source="19" target="30" weight="2.43902439024">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.43902439024" />
+          <attvalue for="3" value="2.43902439024" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="216" source="19" target="31" weight="1.40845070423">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.40845070423" />
+          <attvalue for="3" value="1.40845070423" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="217" source="19" target="32" weight="20.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="20.0" />
+          <attvalue for="3" value="20.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="218" source="19" target="33" weight="1.75438596491">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.75438596491" />
+          <attvalue for="3" value="1.75438596491" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="219" source="19" target="34" weight="1.72413793103">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.72413793103" />
+          <attvalue for="3" value="1.72413793103" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="220" source="19" target="35" weight="100.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="100.0" />
+          <attvalue for="3" value="100.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="221" source="19" target="36" weight="3.84615384615">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.84615384615" />
+          <attvalue for="3" value="3.84615384615" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="222" source="19" target="37" weight="50.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="50.0" />
+          <attvalue for="3" value="50.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="223" source="19" target="38" weight="2.5641025641">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.5641025641" />
+          <attvalue for="3" value="2.5641025641" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="224" source="19" target="39" weight="1.20481927711">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.20481927711" />
+          <attvalue for="3" value="1.20481927711" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="225" source="19" target="40" weight="100.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="100.0" />
+          <attvalue for="3" value="100.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="226" source="19" target="41" weight="0.609756097561">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.609756097561" />
+          <attvalue for="3" value="0.609756097561" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="227" source="19" target="42" weight="19.1666666667">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="19.1666666667" />
+          <attvalue for="3" value="19.1666666667" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="228" source="19" target="43" weight="0.884955752212">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.884955752212" />
+          <attvalue for="3" value="0.884955752212" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="229" source="20" target="42" weight="14.2857142857">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="14.2857142857" />
+          <attvalue for="3" value="14.2857142857" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="230" source="20" target="21" weight="5.26315789474">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="5.26315789474" />
+          <attvalue for="3" value="5.26315789474" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="231" source="20" target="22" weight="3.97245762712">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="3.97245762712" />
+          <attvalue for="3" value="3.97245762712" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="232" source="20" target="23" weight="6.66666666667">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="6.66666666667" />
+          <attvalue for="3" value="6.66666666667" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="233" source="20" target="24" weight="14.2857142857">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="14.2857142857" />
+          <attvalue for="3" value="14.2857142857" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="234" source="20" target="25" weight="4.34782608696">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="4.34782608696" />
+          <attvalue for="3" value="4.34782608696" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="235" source="20" target="26" weight="0.395256916996">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.395256916996" />
+          <attvalue for="3" value="0.395256916996" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="236" source="21" target="22" weight="6.19658119658">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="6.19658119658" />
+          <attvalue for="3" value="6.19658119658" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="237" source="21" target="23" weight="2.12765957447">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.12765957447" />
+          <attvalue for="3" value="2.12765957447" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="238" source="21" target="24" weight="4.34782608696">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="4.34782608696" />
+          <attvalue for="3" value="4.34782608696" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="239" source="21" target="25" weight="0.714285714286">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.714285714286" />
+          <attvalue for="3" value="0.714285714286" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="240" source="21" target="26" weight="1.5625">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.5625" />
+          <attvalue for="3" value="1.5625" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="241" source="21" target="30" weight="1.53846153846">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.53846153846" />
+          <attvalue for="3" value="1.53846153846" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="242" source="21" target="31" weight="5.07177033493">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="5.07177033493" />
+          <attvalue for="3" value="5.07177033493" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="243" source="21" target="32" weight="3.44827586207">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.44827586207" />
+          <attvalue for="3" value="3.44827586207" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="244" source="21" target="33" weight="1.23456790123">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.23456790123" />
+          <attvalue for="3" value="1.23456790123" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="245" source="21" target="34" weight="1.21951219512">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.21951219512" />
+          <attvalue for="3" value="1.21951219512" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="246" source="21" target="35" weight="4.34782608696">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="4.34782608696" />
+          <attvalue for="3" value="4.34782608696" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="247" source="21" target="36" weight="50.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="50.0" />
+          <attvalue for="3" value="50.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="248" source="21" target="37" weight="3.84615384615">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.84615384615" />
+          <attvalue for="3" value="3.84615384615" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="249" source="21" target="38" weight="1.5873015873">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.5873015873" />
+          <attvalue for="3" value="1.5873015873" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="250" source="21" target="39" weight="12.9672897196">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="12.9672897196" />
+          <attvalue for="3" value="12.9672897196" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="251" source="21" target="40" weight="5.57142857143">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="5.57142857143" />
+          <attvalue for="3" value="5.57142857143" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="252" source="21" target="41" weight="0.531914893617">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.531914893617" />
+          <attvalue for="3" value="0.531914893617" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="253" source="21" target="42" weight="4.7619047619">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="4.7619047619" />
+          <attvalue for="3" value="4.7619047619" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="254" source="21" target="43" weight="0.729927007299">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.729927007299" />
+          <attvalue for="3" value="0.729927007299" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="255" source="22" target="23" weight="100.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="100.0" />
+          <attvalue for="3" value="100.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="256" source="22" target="24" weight="4.34782608696">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="4.34782608696" />
+          <attvalue for="3" value="4.34782608696" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="257" source="22" target="25" weight="17.9487179487">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="17.9487179487" />
+          <attvalue for="3" value="17.9487179487" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="258" source="22" target="26" weight="0.371747211896">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.371747211896" />
+          <attvalue for="3" value="0.371747211896" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="259" source="22" target="27" weight="0.187265917603">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.187265917603" />
+          <attvalue for="3" value="0.187265917603" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="260" source="22" target="28" weight="0.769230769231">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.769230769231" />
+          <attvalue for="3" value="0.769230769231" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="261" source="22" target="30" weight="1.78571428571">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.78571428571" />
+          <attvalue for="3" value="1.78571428571" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="262" source="22" target="31" weight="1.16279069767">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.16279069767" />
+          <attvalue for="3" value="1.16279069767" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="263" source="22" target="32" weight="5.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="5.0" />
+          <attvalue for="3" value="5.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="264" source="22" target="33" weight="1.38888888889">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.38888888889" />
+          <attvalue for="3" value="1.38888888889" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="265" source="22" target="34" weight="1.3698630137">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.3698630137" />
+          <attvalue for="3" value="1.3698630137" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="266" source="22" target="35" weight="7.14285714286">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="7.14285714286" />
+          <attvalue for="3" value="7.14285714286" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="267" source="22" target="36" weight="9.09090909091">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="9.09090909091" />
+          <attvalue for="3" value="9.09090909091" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="268" source="22" target="37" weight="5.88235294118">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="5.88235294118" />
+          <attvalue for="3" value="5.88235294118" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="269" source="22" target="38" weight="1.85185185185">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.85185185185" />
+          <attvalue for="3" value="1.85185185185" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="270" source="22" target="39" weight="1.02040816327">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.02040816327" />
+          <attvalue for="3" value="1.02040816327" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="271" source="22" target="40" weight="6.25">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="6.25" />
+          <attvalue for="3" value="6.25" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="272" source="22" target="41" weight="0.558659217877">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.558659217877" />
+          <attvalue for="3" value="0.558659217877" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="273" source="22" target="42" weight="6.31038647343">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="6.31038647343" />
+          <attvalue for="3" value="6.25" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="274" source="22" target="43" weight="0.78125">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.78125" />
+          <attvalue for="3" value="0.78125" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="275" source="23" target="40" weight="3.0303030303">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.0303030303" />
+          <attvalue for="3" value="3.0303030303" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="276" source="23" target="42" weight="4.54545454545">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="4.54545454545" />
+          <attvalue for="3" value="4.54545454545" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="277" source="23" target="39" weight="2.32558139535">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.32558139535" />
+          <attvalue for="3" value="2.32558139535" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="278" source="23" target="24" weight="4.57070707071">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="4.57070707071" />
+          <attvalue for="3" value="4.54545454545" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="279" source="23" target="25" weight="1.43521671993">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="1.43521671993" />
+          <attvalue for="3" value="1.0752688172" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="280" source="23" target="26" weight="3.12774363477">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="3.12774363477" />
+          <attvalue for="3" value="3.12774363477" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="281" source="23" target="31" weight="2.77777777778">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.77777777778" />
+          <attvalue for="3" value="2.77777777778" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="282" source="24" target="39" weight="5.26315789474">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="5.26315789474" />
+          <attvalue for="3" value="5.26315789474" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="283" source="24" target="40" weight="11.1111111111">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="11.1111111111" />
+          <attvalue for="3" value="11.1111111111" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="284" source="24" target="42" weight="100.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="100.0" />
+          <attvalue for="3" value="100.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="285" source="24" target="25" weight="2.54648673766">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="2.54648673766" />
+          <attvalue for="3" value="0.854700854701" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="286" source="24" target="26" weight="1.42276422764">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.42276422764" />
+          <attvalue for="3" value="1.42276422764" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="287" source="24" target="31" weight="8.33333333333">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="8.33333333333" />
+          <attvalue for="3" value="8.33333333333" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="288" source="25" target="26" weight="0.87528604119">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0.87528604119" />
+          <attvalue for="3" value="0.87528604119" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="289" source="25" target="27" weight="0.186219739292">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.186219739292" />
+          <attvalue for="3" value="0.186219739292" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="290" source="25" target="28" weight="0.751879699248">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.751879699248" />
+          <attvalue for="3" value="0.751879699248" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="291" source="25" target="31" weight="0.77519379845">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.77519379845" />
+          <attvalue for="3" value="0.77519379845" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="292" source="25" target="39" weight="0.735294117647">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.735294117647" />
+          <attvalue for="3" value="0.735294117647" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="293" source="25" target="40" weight="0.793650793651">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.793650793651" />
+          <attvalue for="3" value="0.793650793651" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="294" source="25" target="42" weight="5.75657894737">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="5.75657894737" />
+          <attvalue for="3" value="5.75657894737" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="295" source="26" target="39" weight="1.66666666667">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.66666666667" />
+          <attvalue for="3" value="1.66666666667" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="296" source="26" target="42" weight="0.406504065041">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.406504065041" />
+          <attvalue for="3" value="0.406504065041" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="297" source="26" target="40" weight="2.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="298" source="26" target="31" weight="1.88679245283">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.88679245283" />
+          <attvalue for="3" value="1.88679245283" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="299" source="27" target="42" weight="0.19305019305">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.19305019305" />
+          <attvalue for="3" value="0.19305019305" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="300" source="27" target="28" weight="0.247524752475">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.247524752475" />
+          <attvalue for="3" value="0.247524752475" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="301" source="28" target="35" weight="0.287356321839">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.287356321839" />
+          <attvalue for="3" value="0.287356321839" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="302" source="28" target="42" weight="0.848432556802">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0.848432556802" />
+          <attvalue for="3" value="0.848432556802" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="303" source="28" target="43" weight="0.763358778626">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.763358778626" />
+          <attvalue for="3" value="0.763358778626" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="304" source="28" target="29" weight="0.757575757576">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.757575757576" />
+          <attvalue for="3" value="0.757575757576" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="305" source="29" target="35" weight="0.208333333333">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.208333333333" />
+          <attvalue for="3" value="0.208333333333" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="306" source="29" target="42" weight="0.393700787402">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.393700787402" />
+          <attvalue for="3" value="0.393700787402" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="307" source="29" target="43" weight="0.380228136882">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.380228136882" />
+          <attvalue for="3" value="0.380228136882" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="308" source="30" target="32" weight="3.74141109435">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="3.74141109435" />
+          <attvalue for="3" value="2.77777777778" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="309" source="30" target="33" weight="3.25589005236">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="3.25589005236" />
+          <attvalue for="3" value="3.25589005236" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="310" source="30" target="34" weight="5.88235294118">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="5.88235294118" />
+          <attvalue for="3" value="5.88235294118" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="311" source="30" target="35" weight="2.38095238095">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.38095238095" />
+          <attvalue for="3" value="2.38095238095" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="312" source="30" target="36" weight="1.49253731343">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.49253731343" />
+          <attvalue for="3" value="1.49253731343" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="313" source="30" target="37" weight="2.5641025641">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.5641025641" />
+          <attvalue for="3" value="2.5641025641" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="314" source="30" target="38" weight="50.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="50.0" />
+          <attvalue for="3" value="50.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="315" source="30" target="39" weight="2.38095238095">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.38095238095" />
+          <attvalue for="3" value="2.38095238095" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="316" source="30" target="40" weight="2.5">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.5" />
+          <attvalue for="3" value="2.5" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="317" source="30" target="41" weight="0.813008130081">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.813008130081" />
+          <attvalue for="3" value="0.813008130081" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="318" source="30" target="42" weight="2.27272727273">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.27272727273" />
+          <attvalue for="3" value="2.27272727273" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="319" source="30" target="43" weight="1.38888888889">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.38888888889" />
+          <attvalue for="3" value="1.38888888889" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="320" source="30" target="31" weight="1.79389312977">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.79389312977" />
+          <attvalue for="3" value="1.79389312977" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="321" source="31" target="32" weight="0.89055448098">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0.89055448098" />
+          <attvalue for="3" value="0.89055448098" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="322" source="31" target="33" weight="8.11688311688">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="8.11688311688" />
+          <attvalue for="3" value="8.11688311688" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="323" source="31" target="34" weight="7.69230769231">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="7.69230769231" />
+          <attvalue for="3" value="7.69230769231" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="324" source="31" target="35" weight="1.38888888889">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.38888888889" />
+          <attvalue for="3" value="1.38888888889" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="325" source="31" target="36" weight="1.03092783505">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.03092783505" />
+          <attvalue for="3" value="1.03092783505" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="326" source="31" target="37" weight="1.44927536232">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.44927536232" />
+          <attvalue for="3" value="1.44927536232" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="327" source="31" target="38" weight="3.125">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.125" />
+          <attvalue for="3" value="3.125" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="328" source="31" target="39" weight="11.3095238095">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="11.3095238095" />
+          <attvalue for="3" value="11.3095238095" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="329" source="31" target="40" weight="17.380952381">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="17.380952381" />
+          <attvalue for="3" value="17.380952381" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="330" source="31" target="41" weight="1.0752688172">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.0752688172" />
+          <attvalue for="3" value="1.0752688172" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="331" source="31" target="42" weight="1.35135135135">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.35135135135" />
+          <attvalue for="3" value="1.35135135135" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="332" source="31" target="43" weight="2.38095238095">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.38095238095" />
+          <attvalue for="3" value="2.38095238095" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="333" source="32" target="33" weight="1.09852476291">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.09852476291" />
+          <attvalue for="3" value="1.09852476291" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="334" source="32" target="34" weight="1.88679245283">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.88679245283" />
+          <attvalue for="3" value="1.88679245283" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="335" source="32" target="35" weight="16.6666666667">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="16.6666666667" />
+          <attvalue for="3" value="16.6666666667" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="336" source="32" target="36" weight="3.22580645161">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.22580645161" />
+          <attvalue for="3" value="3.22580645161" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="337" source="32" target="37" weight="33.3333333333">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="33.3333333333" />
+          <attvalue for="3" value="33.3333333333" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="338" source="32" target="38" weight="2.94117647059">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.94117647059" />
+          <attvalue for="3" value="2.94117647059" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="339" source="32" target="39" weight="1.28205128205">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.28205128205" />
+          <attvalue for="3" value="1.28205128205" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="340" source="32" target="40" weight="25.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="25.0" />
+          <attvalue for="3" value="25.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="341" source="32" target="41" weight="0.62893081761">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.62893081761" />
+          <attvalue for="3" value="0.62893081761" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="342" source="32" target="43" weight="0.925925925926">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.925925925926" />
+          <attvalue for="3" value="0.925925925926" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="343" source="32" target="42" weight="12.5">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="12.5" />
+          <attvalue for="3" value="12.5" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="344" source="33" target="34" weight="100.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="100.0" />
+          <attvalue for="3" value="100.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="345" source="33" target="35" weight="1.72413793103">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.72413793103" />
+          <attvalue for="3" value="1.72413793103" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="346" source="33" target="36" weight="1.20481927711">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.20481927711" />
+          <attvalue for="3" value="1.20481927711" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="347" source="33" target="37" weight="1.81818181818">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.81818181818" />
+          <attvalue for="3" value="1.81818181818" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="348" source="33" target="38" weight="5.55555555556">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="5.55555555556" />
+          <attvalue for="3" value="5.55555555556" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="349" source="33" target="39" weight="3.84615384615">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.84615384615" />
+          <attvalue for="3" value="3.84615384615" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="350" source="33" target="40" weight="1.78571428571">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.78571428571" />
+          <attvalue for="3" value="1.78571428571" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="351" source="33" target="41" weight="0.934579439252">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.934579439252" />
+          <attvalue for="3" value="0.934579439252" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="352" source="33" target="42" weight="1.66666666667">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.66666666667" />
+          <attvalue for="3" value="1.66666666667" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="353" source="33" target="43" weight="1.78571428571">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.78571428571" />
+          <attvalue for="3" value="1.78571428571" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="354" source="34" target="35" weight="1.01247412877">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.01247412877" />
+          <attvalue for="3" value="1.01247412877" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="355" source="34" target="36" weight="0.74186566122">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0.74186566122" />
+          <attvalue for="3" value="0.74186566122" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="356" source="34" target="37" weight="1.50261324042">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.50261324042" />
+          <attvalue for="3" value="1.50261324042" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="357" source="34" target="38" weight="5.26315789474">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="5.26315789474" />
+          <attvalue for="3" value="5.26315789474" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="358" source="34" target="39" weight="4.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="4.0" />
+          <attvalue for="3" value="4.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="359" source="34" target="40" weight="1.75438596491">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.75438596491" />
+          <attvalue for="3" value="1.75438596491" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="360" source="34" target="41" weight="0.943396226415">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.943396226415" />
+          <attvalue for="3" value="0.943396226415" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="361" source="34" target="43" weight="1.81818181818">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.81818181818" />
+          <attvalue for="3" value="1.81818181818" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="362" source="34" target="42" weight="1.6393442623">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.6393442623" />
+          <attvalue for="3" value="1.6393442623" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="363" source="35" target="36" weight="2.51082661609">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="2.51082661609" />
+          <attvalue for="3" value="2.63157894737" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="364" source="35" target="37" weight="16.7965367965">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="16.7965367965" />
+          <attvalue for="3" value="16.7965367965" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="365" source="35" target="38" weight="2.5">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.5" />
+          <attvalue for="3" value="2.5" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="366" source="35" target="39" weight="1.19047619048">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.19047619048" />
+          <attvalue for="3" value="1.19047619048" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="367" source="35" target="40" weight="50.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="50.0" />
+          <attvalue for="3" value="50.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="368" source="35" target="41" weight="0.606060606061">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.606060606061" />
+          <attvalue for="3" value="0.606060606061" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="369" source="35" target="42" weight="25.2212389381">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="25.2212389381" />
+          <attvalue for="3" value="25.2212389381" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="370" source="35" target="43" weight="0.55900184213">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="0.55900184213" />
+          <attvalue for="3" value="0.460829493088" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="371" source="36" target="37" weight="1.90391759541">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.90391759541" />
+          <attvalue for="3" value="1.90391759541" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="372" source="36" target="38" weight="1.53846153846">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.53846153846" />
+          <attvalue for="3" value="1.53846153846" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="373" source="36" target="39" weight="0.917431192661">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.917431192661" />
+          <attvalue for="3" value="0.917431192661" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="374" source="36" target="40" weight="3.7037037037">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.7037037037" />
+          <attvalue for="3" value="3.7037037037" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="375" source="36" target="41" weight="0.526315789474">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.526315789474" />
+          <attvalue for="3" value="0.526315789474" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="376" source="36" target="43" weight="0.482864939575">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0.482864939575" />
+          <attvalue for="3" value="0.482864939575" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="377" source="36" target="42" weight="4.34782608696">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="4.34782608696" />
+          <attvalue for="3" value="4.34782608696" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="378" source="37" target="38" weight="2.7027027027">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.7027027027" />
+          <attvalue for="3" value="2.7027027027" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="379" source="37" target="39" weight="1.23456790123">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.23456790123" />
+          <attvalue for="3" value="1.23456790123" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="380" source="37" target="40" weight="100.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="100.0" />
+          <attvalue for="3" value="100.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="381" source="37" target="41" weight="0.617283950617">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.617283950617" />
+          <attvalue for="3" value="0.617283950617" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="382" source="37" target="42" weight="20.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="20.0" />
+          <attvalue for="3" value="20.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="383" source="37" target="43" weight="0.900900900901">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.900900900901" />
+          <attvalue for="3" value="0.900900900901" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="384" source="38" target="39" weight="1.49607586658">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.49607586658" />
+          <attvalue for="3" value="1.49607586658" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="385" source="38" target="40" weight="2.53530166881">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="2.53530166881" />
+          <attvalue for="3" value="2.53530166881" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="386" source="38" target="41" weight="0.9">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0.9" />
+          <attvalue for="3" value="0.9" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="387" source="38" target="42" weight="2.38095238095">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2.38095238095" />
+          <attvalue for="3" value="2.38095238095" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="388" source="38" target="43" weight="1.35135135135">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.35135135135" />
+          <attvalue for="3" value="1.35135135135" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="389" source="39" target="40" weight="3.92502258356">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="3.92502258356" />
+          <attvalue for="3" value="1.21951219512" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="390" source="39" target="41" weight="1.89933523267">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.89933523267" />
+          <attvalue for="3" value="1.89933523267" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="391" source="39" target="42" weight="1.16279069767">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.16279069767" />
+          <attvalue for="3" value="1.16279069767" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="392" source="39" target="43" weight="3.33333333333">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="3.33333333333" />
+          <attvalue for="3" value="3.33333333333" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="393" source="40" target="41" weight="0.661358395336">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0.661358395336" />
+          <attvalue for="3" value="0.661358395336" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="394" source="40" target="42" weight="25.0">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="25.0" />
+          <attvalue for="3" value="25.0" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="395" source="40" target="43" weight="0.892857142857">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.892857142857" />
+          <attvalue for="3" value="0.892857142857" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="396" source="41" target="43" weight="1.96078431373">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.96078431373" />
+          <attvalue for="3" value="1.96078431373" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="397" source="41" target="42" weight="0.59880239521">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.59880239521" />
+          <attvalue for="3" value="0.59880239521" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+      <edge id="398" source="42" target="43" weight="5.98659003831">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="5.98659003831" />
+          <attvalue for="3" value="5.98659003831" />
+          <attvalue for="4" value="allwords" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

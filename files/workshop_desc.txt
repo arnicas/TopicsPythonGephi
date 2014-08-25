@@ -1,0 +1,19 @@
+Workshop:
+Visualising Topic Models as Networks
+
+In this tutorial, you will learn how to explore document content visually with topic modeling, a popular unsupervised machine learning technique that can help illuminate text content and relations. The tools used will be Python for simple text processing, a topic modeler (Mallet) with a GUI or command line option, and Gephi and D3 for network visualization.  The workshop is planned so that you can follow along with the code process (and replicate / modify yourself) or just run the simple examples without actually modifying them yourself.
+
+The steps we will take:
+1. Pre-process texts for use in topic modeling, using Python scripts.
+2. Run topic modeling software on the texts (using a point-and-click GUI).
+3. Read in the csv results for use in a visualization, using Python.
+4. Generate a network output file for use with Gephi (or D3).
+5. Import the data to Gephi to view the network and lay out the graph.
+6. Export as a Sigma.js web application; tweak that output as we explore the graph.
+7. Time allowing: Use the JSON network format to build a simple D3 network diagram.
+
+The tutorial is intended for novices in topic modeling and is also appropriate for programmers with only a little Python or D3.js experience. If you are new or confused by Gephi, the tutorial will probably help you learn a few tricks for getting good results with it. Note that the topic modeling stage will be treated as a black box for the most part, as the algorithm is not the focus of the course.
+
+
+Bio:
+Lynn Cherny is a data analysis and visualization consultant in the Boston area, working primarily with Python, R, and D3.js. She has a Ph.D. from Stanford University in Linguistics and an M.Phil. from Cambridge University in Computer Speech and Language Processing. Her former employers include AT&T Labs, TiVo, the MathWorks, Adobe, and Autodesk.

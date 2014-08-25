@@ -1,5 +1,13 @@
 
+"""
+Usage: python make_gephi_file.py [csv_directory] [optl label]
+Directory is the dir of the Mallet GUI output csv files,
+label is an optional label to append to your output files so you
+can tell them apart.
+"""
+
 import csv
+import sys
 
 # pass in the topic_words filename
 # This will give you the 10 words per topic; we asked for 10 topics
@@ -15,7 +23,7 @@ def list_words_for_topics(filename):
     return words
 
 def get_names_for_ids(filename):
-    """ 
+    """
     Pass in the Docs in Topics csv file.
     Get out 2 data dictionaries, the file titles and authors, from the filename
     """
@@ -78,7 +86,7 @@ def writeout(string, fname):
         f.write(string)
 
 def get_doctext_for_ids(filename, NChars=200):
-    """ 
+    """
     Pass in the Docs in Topics csv file.
     Remember that you can't ask for more NChars than you saved into the documents dict!
     """
@@ -119,8 +127,8 @@ def writegdfnodes(word_list, docs_alltopics, doc_ids, doc_authors, documents):
 
     item = 1
     for docid, doc in docs_alltopics.iteritems():
-        thisline = ','.join([str(docid), doc_ids[docid], doc_authors[docid], "Doc", 
-                             "\"" + remove_commas(documents[docid]) + "...\""]) 
+        thisline = ','.join([str(docid), doc_ids[docid], doc_authors[docid], "Doc",
+                             "\"" + remove_commas(documents[docid]) + "...\""])
         #print "doc", thisline
         output += thisline + "\n"
         item += 1  # just a counter so we can sequentially add the topics after it
@@ -141,13 +149,13 @@ def writegdfedges(docs, lookup_topic, weight_filter=0.1):
         The weight filter arg allows me to trim edges below a threshold.
         You can do some trimming in the Topic GUI, too, but here we have
         another level of control."""
-  
+
     output = ""
     # Gephi prefers 'weight' and sigma.js prefers 'size' for the edge thickness, so write both
     output += "edgedef>node1 VARCHAR, node2 VARCHAR, weight DOUBLE, size DOUBLE"
-    #print output 
+    #print output
     output += "\n"
-    
+
     for docnum, topics in docs.iteritems():  # if you haven't modified your dict, will be same order
         #print "Writing out ", docnum, topics
         for topicid, score in topics.iteritems():
@@ -158,7 +166,7 @@ def writegdfedges(docs, lookup_topic, weight_filter=0.1):
                 output += thisline + "\n"
     return output
 
-def writegdf(word_list, docs_alltopics, doc_ids, doc_authors, 
+def writegdf(word_list, docs_alltopics, doc_ids, doc_authors,
     documents, filename, weight_filter=0.1):
     nodestxt, lookup_topic = writegdfnodes(word_list, docs_alltopics, doc_ids, doc_authors, documents)
     edgetxt = writegdfedges(docs_alltopics, lookup_topic, weight_filter=weight_filter)
@@ -167,11 +175,22 @@ def writegdf(word_list, docs_alltopics, doc_ids, doc_authors,
 
 def main():
     # Customize these settings for your wishes and paths...
-    GUI_DIR = 'topic_output/output_csv/'
-    topicWords = GUI_DIR + 'Topics_Words.csv'
-    topicDocs = GUI_DIR + 'TopicsInDocs.csv'
-    docTopics = GUI_DIR + 'DocsInTopics.csv'
-    FILES_DIR = './files/'
+    args = len(sys.argv)
+    print args
+
+    if args < 2:
+        GUI_DIR = 'topic_output/output_csv'
+    else:
+        GUI_DIR = sys.argv[1]
+    if args < 3:
+        LABEL = ''
+    else:
+        LABEL = sys.argv[2]
+
+    topicWords = GUI_DIR + '/Topics_Words.csv'
+    topicDocs = GUI_DIR + '/TopicsInDocs.csv'
+    docTopics = GUI_DIR + '/DocsInTopics.csv'
+    FILES_DIR = ''
     DocStringChars = 500
     filter_out_lower_than = 0.1
 
@@ -185,13 +204,13 @@ def main():
     docs_alltopics = read_doctopics(topicDocs)
     print "Documents found in data files:", len(docs_alltopics)
 
-    file_for_excel = FILES_DIR + 'for_excel_' + str(topicCount) + '.csv'
+    file_for_excel = FILES_DIR + 'for_excel_' + LABEL + '.csv'
 
     doc_topics_for_excel(docs_alltopics, doc_ids, doc_authors, file_for_excel)
     print "Printed out docs and topics as csv:", file_for_excel
 
-    filename_for_gephi = FILES_DIR + 'forgephi_topics' + str(topicCount) + '.gdf'
-    writegdf(word_list, docs_alltopics, doc_ids, doc_authors, doc_sample, 
+    filename_for_gephi = FILES_DIR + 'forgephi_topics_' + LABEL + '.gdf'
+    writegdf(word_list, docs_alltopics, doc_ids, doc_authors, doc_sample,
         filename_for_gephi, weight_filter=filter_out_lower_than)
     print "Wrote out gdf file for use in gephi:", filename_for_gephi
 
