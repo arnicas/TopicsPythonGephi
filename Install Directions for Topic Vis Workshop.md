@@ -16,10 +16,11 @@ Accept the defaults.  Open a new terminal window afterwards.
 
 Then from the command line in the new window:
 
-    >conda create -n topic_workshop ipython-notebook nltk pip
+    >conda create -n topic_workshop ipython-notebook pandas numpy nltk pip
     [accept the defaults]
     >source activate topic_workshop
     >pip install pattern
+    >pip install networkx
 
 You should see a prompt that shows the name of your new virtual environment (venv):
 
