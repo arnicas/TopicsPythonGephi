@@ -1,7 +1,9 @@
 Topic Visualization With Python & Gephi
 =================
 
-[If you came here because of the tutorial at Graphical Web 2014, I'm in the process of updating all of these files - not ready yet for download!]  Do read the [installation instructions though](https://github.com/arnicas/TopicsPythonGephi/blob/master/Install%20Directions%20for%20Topic%20Vis%20Workshop.md).
+Files for a workshop at the Graphical Web in Winchester, and the Bodleian, Oxford, 2014. Do read the [installation instructions.](https://github.com/arnicas/TopicsPythonGephi/blob/master/Install%20Directions%20for%20Topic%20Vis%20Workshop.md).
 
-Outdated:
-Files for creating a topic network using a big text file (or directory of files), IPython notebook, Gephi, and Sigma.js.  This project goes thru segmenting a Gutenberg book text file - Grimm's Fairytales, creating a csv file to input to a Topic Analysis gui (also available here: https://code.google.com/p/topic-modeling-tool/), post-processing the results in Python, creating a network to import to Gephi, layout in Gephi, export to Sigma.js interactive web page.
+Blog post coming soon... but this workshop takes you through using a directory of fiction samples, running a topic modeler on them, and post-processing the output to import to Gephi.  From Gephi, a sigma.js website is exported. Code is included to do pre-processing on the text files to filter the input by part of speech, etc.
+
+In a subdirectory, there are workshop files for doing a topic analysis on Grimm's fairytales, similar in structure but with fewer python scripts for iterative revision of the input.
+
