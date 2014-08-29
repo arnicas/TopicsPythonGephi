@@ -1,9 +1,9 @@
+"""
+Usage: python preprocess_files.py [original_dir] [new_dir] [part_of_speech]
 
-# coding: utf-8
-
-## Examples of Tokenizing, Cleaning, Rewriting with Parts of Speech
-
-##### This notebook assumes you installed nltk and pattern already. (@arnicas, Aug 2014)
+Examples of Tokenizing, Cleaning, Rewriting with Parts of Speech
+This notebook assumes you installed nltk and pattern already. (@arnicas, Aug 2014)
+"""
 
 import os
 from pattern.en import tag as ptag
@@ -68,7 +68,7 @@ def rewrite_all(dirname, newdir, funct=cleanup_and_pos, pos='VB'):
 
 def main():
     if len(sys.argv) != 4:
-        print 'Usage: preprocess_files [original_dir] [new_dir] [part_of_speech]'
+        print 'Usage: python preprocess_files.py [original_dir] [new_dir] [part_of_speech]'
     else:
         input_dir = sys.argv[1]
         output_dir = sys.argv[2]

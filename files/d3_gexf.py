@@ -1,11 +1,14 @@
 
-# Usage:
-# >python d3_gexf.py csvfile label  OR
-# >python d3_gexf.py csvfile label csvfile2 label2
+"""
+Usage: >python d3_gexf.py csvfile label  OR
+OR: >python d3_gexf.py csvfile label csvfile2 label2
 
-# Requires you to have pandas, numpy, and networkx installed.
-# >pip install pandas (it will install numpy too)
-# >pip install networkx
+Requires you to have pandas, numpy, and networkx installed.
+>pip install pandas (it will install numpy too)
+>pip install networkx
+
+@arnicas (Aug 2014)
+"""
 
 
 import json

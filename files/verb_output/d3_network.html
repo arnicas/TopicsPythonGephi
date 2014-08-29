@@ -14,7 +14,7 @@ text.nodelabel {
     color: black;
 }
 
-.allwords {
+.all {
   display: inline;
   stroke: #ccc;
   stroke-opacity: .6;
@@ -28,7 +28,7 @@ text.nodelabel {
 
 button {
   padding: 10px;
-  font-size: 20pt;
+  font-size: 15pt;
   font-family: sans-serif;
   color: steelblue;
 }
@@ -37,7 +37,7 @@ button {
   background: #ccc;
 }
 
-#allwords {
+#all {
   background: pink;
 }
 
@@ -49,7 +49,7 @@ button {
 <body>
 
 <button id='verbs'  label='Verbs'>Only Verb Links</button>
-<button id='allwords'  label='Allwords'>All Word Links</button>
+<button id='all'  label='Allwords'>Only All Word Links</button>
 <button id='alllinks' label='Alllinks'>Both sets of Links</button>
 
 <script src="http://d3js.org/d3.v3.min.js"></script>
@@ -73,14 +73,14 @@ var svg = d3.select("body").append("svg")
 d3.select('button#verbs').on('click', function() {
   force.stop();
   d3.selectAll('line').style('display','inline');
-  d3.selectAll('line.verbs').style('display','none');
+  d3.selectAll('line.all').style('display','none');
   force.start();
 });
 
-d3.select('button#allwords').on('click', function() {
+d3.select('button#all').on('click', function() {
   force.stop();
   d3.selectAll('line').style('display','inline');
-  d3.selectAll('line.allwords').style('display','none');
+  d3.selectAll('line.verbs').style('display','none');
   force.start();
 });
 

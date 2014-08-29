@@ -3,7 +3,7 @@
 Usage: python make_gephi_file.py [csv_directory] [optl label]
 Directory is the dir of the Mallet GUI output csv files,
 label is an optional label to append to your output files so you
-can tell them apart.
+can tell them apart. (@arnicas, Aug 2014)
 """
 
 import csv
