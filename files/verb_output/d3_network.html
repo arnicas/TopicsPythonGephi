@@ -1,6 +1,7 @@
 
 <!DOCTYPE html>
 <meta charset="utf-8">
+<head>
 <style>
 
 .nodedot {
@@ -14,7 +15,7 @@ text.nodelabel {
     color: black;
 }
 
-.all {
+.allwords {
   display: inline;
   stroke: #ccc;
   stroke-opacity: .6;
@@ -34,25 +35,46 @@ button {
 }
 
 #verbs {
-  background: #ccc;
+  background: pink;
 }
 
-#all {
-  background: pink;
+#allwords {
+  background: #ccc;
 }
 
 #alllinks {
   background: white;
 }
 
+#slidertext {
+  margin: 5px;
+}
+.wrapper div {
+    margin: 35px 0;
+}
+
+.wrapper {
+      width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+}
+
 </style>
+<link rel="stylesheet" href="js/d3.slider.css" />
+</head>
 <body>
 
+<div class = 'wrapper'>
 <button id='verbs'  label='Verbs'>Only Verb Links</button>
-<button id='all'  label='Allwords'>Only All Word Links</button>
-<button id='alllinks' label='Alllinks'>Both sets of Links</button>
+<button id='allwords'  label='Allwords'>Only All Word Links</button>
+<button id='alllinks' label='Alllinks'>Both Sets of Links</button>
+
+<p>Filter links with weigt value (redo after using buttons above - there's a bug in the component code I used): <span id="slidertext">0</span></p>
+<div id="slider"></slider>
+</div>
 
 <script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="js/d3.slider.js"></script>
 <script>
 
 var width = 960,
@@ -73,11 +95,11 @@ var svg = d3.select("body").append("svg")
 d3.select('button#verbs').on('click', function() {
   force.stop();
   d3.selectAll('line').style('display','inline');
-  d3.selectAll('line.all').style('display','none');
+  d3.selectAll('line.allwords').style('display','none');
   force.start();
 });
 
-d3.select('button#all').on('click', function() {
+d3.select('button#allwords').on('click', function() {
   force.stop();
   d3.selectAll('line').style('display','inline');
   d3.selectAll('line.verbs').style('display','none');
@@ -90,11 +112,7 @@ d3.select('button#alllinks').on('click', function() {
   force.start();
 });
 
-var neighboring = function(a, b) {
-      return linkedByIndex[a.id + "," + b.id] || linkedByIndex[b.id + "," + a.id];
-    };
-
-d3.json("network_all_verbs.json", function(error, graph) {
+d3.json("network_with_verbs.json", function(error, graph) {
 
   var k = Math.sqrt(graph.nodes.length / (width * height));
 
@@ -129,19 +147,32 @@ d3.json("network_all_verbs.json", function(error, graph) {
     node.append("title")
       .text(function(d) { return d.label; });
     node.append("text")
-      .attr("dx", 12)
-      .attr("dy", ".35em")
+      .attr("dx", "-35px")
+      .attr("dy", "-10px")
       .attr("class", "nodelabel")
       .text(function(d) { return d.label; });
 
-  force.on("tick", function() {
-    link.attr("x1", function(d) { return d.source.x; })
+    force.on("tick", function() {
+      link.attr("x1", function(d) { return d.source.x; })
         .attr("y1", function(d) { return d.source.y; })
         .attr("x2", function(d) { return d.target.x; })
         .attr("y2", function(d) { return d.target.y; });
 
     node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+    });
+
+    d3.select('#slider').call(d3.slider().axis(true).min(0).max(100).step(5).value(0)
+      .on("slide", function(evt, value) {
+        d3.select('#slidertext').text(value);
+        d3.selectAll('line').style('display', function(d) {
+          if (d.weight <  value) {
+              return 'none';
+          } else {
+            return 'inline';
+          }
+        });
+      }));
+
   });
-});
 
 </script>
