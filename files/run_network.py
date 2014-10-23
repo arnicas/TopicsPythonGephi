@@ -15,14 +15,14 @@ import SocketServer
 import sys
 
 
-if sys.argv[1]:
+try:
     dir = sys.argv[1]
-else:
+except:
     dir = 'network'
 
-if sys.argv[2]:
+try:
     PORT = int(sys.argv[2])
-else:
+except:
     PORT = 8000
 
 try:
